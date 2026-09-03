@@ -1,0 +1,11 @@
+Hours_Studied,Attendance,Parental_Involvement,Access_to_Resources,Extracurricular_Activities,Sleep_Hours,Previous_Scores,Motivation_Level,Internet_Access,Tutoring_Sessions,Family_Income,Teacher_Quality,School_Type,Peer_Influence,Physical_Activity,Learning_Disabilities,Parental_Education_Level,Distance_from_Home,Gender,prediction,latency_ms,timestamp
+25,85,Medium,High,Yes,7,80,Medium,Yes,1,Medium,Medium,Public,Neutral,3,No,College,Near,Female,70.316617657789,107.95,
+25,85,Medium,High,Yes,7,80,Medium,Yes,1,Medium,Medium,Public,Neutral,3,No,College,Near,Female,70.31661765778897,92.08,
+25,90,Medium,High,Yes,7,80,Medium,Yes,1,Medium,Medium,Public,Neutral,3,No,College,Near,Female,71.62262090085514,93.5,
+25,65,Medium,High,Yes,7,80,Medium,Yes,1,Medium,Medium,Public,Neutral,3,No,College,Near,Female,66.11418086575428,137.59,2026-09-01T11:58:07.584505
+20,65,Medium,High,Yes,7,80,Medium,Yes,1,Medium,Medium,Public,Neutral,3,No,College,Near,Female,64.39727857840778,101.61,2026-09-01T11:59:07.075322
+20,65,Medium,High,Yes,7,80,Medium,Yes,1,Medium,Medium,Public,Neutral,4,No,College,Near,Female,64.38836489108498,79.39,2026-09-01T11:59:17.869573
+20,65,Medium,High,Yes,7,39,Medium,Yes,1,Medium,Medium,Public,Neutral,4,No,College,Near,Female,63.175286500907625,92.11,2026-09-01T11:59:26.582786
+20,65,Medium,High,Yes,5,79,Medium,Yes,1,Medium,Medium,Public,Neutral,4,No,College,Near,Female,64.59341680275713,90.52,2026-09-01T11:59:55.400694
+20,65,Medium,High,Yes,5,79,Medium,Yes,10,Medium,Medium,Public,Neutral,4,No,College,Near,Female,65.49197943464964,91.43,2026-09-01T12:00:03.374874
+20,99,Medium,High,Yes,5,79,Medium,Yes,10,Medium,Medium,Public,Neutral,4,No,College,Near,Female,72.15620756477404,96.32,2026-09-01T12:00:20.838777

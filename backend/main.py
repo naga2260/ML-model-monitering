@@ -1,7 +1,8 @@
 from fastapi import FastAPI
-
+from backend.logging_config import setup_logging
 from backend.routes.prediction import router as prediction_router
 
+setup_logging()
 
 app = FastAPI(
     title="Student Exam Score Prediction API",
