@@ -1,0 +1,21 @@
+2026-09-07 14:55:07,098 | INFO | ============================================================
+2026-09-07 14:55:07,098 | INFO | Starting incremental log ingestion
+2026-09-07 14:55:07,098 | INFO | ============================================================
+2026-09-07 14:55:07,098 | INFO | No ingestion state found. Starting from beginning of log.
+2026-09-07 14:55:07,098 | INFO | Last processed log position: 0
+2026-09-07 14:55:07,116 | INFO | New prediction records found: 1638
+2026-09-07 14:55:07,135 | INFO | New production data shape: (1638, 22)
+2026-09-07 14:55:07,153 | INFO | Appended 1638 new records to /home/vardhan9296/Linear_Regression/data/production_data.csv
+2026-09-07 14:55:07,153 | INFO | Updated log position: 1174916
+2026-09-07 14:55:07,154 | INFO | Incremental ingestion completed successfully.
+2026-09-07 14:55:07,154 | INFO | ============================================================
+2026-09-07 15:00:01,680 | INFO | ============================================================
+2026-09-07 15:00:01,680 | INFO | Starting incremental log ingestion
+2026-09-07 15:00:01,680 | INFO | ============================================================
+2026-09-07 15:00:01,680 | INFO | Last processed log position: 1174916
+2026-09-07 15:00:01,685 | INFO | New prediction records found: 480
+2026-09-07 15:00:01,693 | INFO | New production data shape: (480, 22)
+2026-09-07 15:00:01,699 | INFO | Appended 480 new records to /home/vardhan9296/Linear_Regression/data/production_data.csv
+2026-09-07 15:00:01,699 | INFO | Updated log position: 1519272
+2026-09-07 15:00:01,699 | INFO | Incremental ingestion completed successfully.
+2026-09-07 15:00:01,699 | INFO | ============================================================

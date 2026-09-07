@@ -1637,3 +1637,483 @@ Hours_Studied,Attendance,Parental_Involvement,Access_to_Resources,Extracurricula
 11,77,Low,Low,Yes,6,92,Low,Yes,0,Low,Medium,Public,Neutral,5,No,High School,Near,Male,63.00406781932132,97.59,2026-09-07T10:49:59.446413
 23,73,Low,High,No,5,60,High,Yes,1,Medium,Medium,Private,Positive,2,No,Postgraduate,Near,Female,66.883603113601,99.59,2026-09-07T10:49:59.652976
 25,69,High,Medium,No,7,76,Medium,Yes,1,High,Medium,Public,Positive,2,No,High School,Near,Female,67.28537339699926,85.72,2026-09-07T10:49:59.845986
+20,71,Medium,Low,No,7,87,High,Yes,1,Medium,Medium,Public,Negative,5,No,High School,Near,Male,64.476736380364,125.87,2026-09-07T14:56:55.680397
+22,71,Medium,Low,Yes,7,98,Low,Yes,2,Low,High,Public,Neutral,2,No,High School,Moderate,Female,66.44184292785691,87.26,2026-09-07T14:56:55.873474
+21,91,High,Medium,Yes,6,53,High,Yes,1,Medium,Medium,Public,Positive,3,No,Postgraduate,Near,Female,70.08235597929664,84.23,2026-09-07T14:56:56.063947
+12,91,Medium,Low,Yes,8,81,Low,Yes,0,Low,Low,Public,Positive,4,No,High School,Moderate,Male,65.3993997455536,81.81,2026-09-07T14:56:56.251645
+21,63,Low,High,Yes,8,95,Medium,Yes,2,High,Medium,Public,Neutral,5,No,High School,Near,Male,66.15176306308301,112.85,2026-09-07T14:56:56.471928
+21,79,Low,Medium,Yes,7,84,Low,Yes,2,Medium,Medium,Private,Neutral,3,No,High School,Near,Male,66.55162550323531,94.88,2026-09-07T14:56:56.673743
+37,73,Medium,High,Yes,6,71,Medium,Yes,0,High,High,Public,Positive,5,No,High School,Moderate,Male,71.94327699301475,97.81,2026-09-07T14:56:56.877141
+24,84,Low,Medium,Yes,7,52,Medium,Yes,0,Low,High,Public,Neutral,3,No,High School,Near,Male,66.62516073316957,90.96,2026-09-07T14:56:57.075205
+17,98,High,Low,Yes,10,71,Medium,Yes,0,Low,High,Private,Positive,3,No,Postgraduate,Moderate,Female,69.48440435826797,86.58,2026-09-07T14:56:57.268355
+16,94,High,High,Yes,9,76,Medium,Yes,0,Low,High,Public,Neutral,2,No,High School,Near,Male,70.008168893301,98.93,2026-09-07T14:56:57.474784
+22,68,Medium,Medium,No,4,87,High,Yes,2,Medium,Medium,Public,Neutral,3,No,Postgraduate,Far,Female,66.98923576423574,85.53,2026-09-07T14:56:57.667335
+24,96,Medium,High,Yes,5,69,Medium,Yes,1,Low,Medium,Public,Positive,4,No,High School,Near,Male,71.41698802306061,86.98,2026-09-07T14:56:57.862234
+22,68,Medium,High,No,7,76,Medium,Yes,1,Medium,Medium,Public,Positive,4,No,High School,Near,Male,66.26640755320823,102.55,2026-09-07T14:56:58.071975
+17,67,Medium,Medium,No,9,97,Medium,Yes,1,Medium,Low,Public,Neutral,3,No,Postgraduate,Moderate,Female,64.73926640084859,92.08,2026-09-07T14:56:58.282500
+17,72,Low,Medium,Yes,5,66,Medium,Yes,2,High,High,Public,Negative,3,No,College,Near,Male,64.27302117417298,90.89,2026-09-07T14:56:58.480795
+17,60,High,Medium,Yes,9,86,Medium,Yes,0,Low,High,Public,Positive,2,No,High School,Near,Male,63.6871569571267,96.19,2026-09-07T14:56:58.684122
+22,60,Medium,Medium,No,6,92,Low,Yes,2,Low,High,Public,Negative,2,No,High School,Near,Male,64.31698807214542,93.5,2026-09-07T14:56:58.884720
+11,82,High,High,No,7,97,Low,Yes,2,High,Medium,Public,Positive,3,No,College,Near,Male,66.71090651801002,95.96,2026-09-07T14:56:59.293666
+18,69,High,Medium,Yes,7,100,Medium,Yes,3,Medium,High,Public,Negative,2,No,High School,Near,Male,66.41745173561296,97.89,2026-09-07T14:56:59.498168
+20,98,Medium,Medium,No,6,80,Medium,Yes,0,Medium,Medium,Public,Positive,2,No,College,Moderate,Male,70.25618528227794,91.33,2026-09-07T14:56:59.696747
+19,65,Medium,Medium,Yes,10,66,Low,Yes,0,Low,Medium,Public,Positive,3,No,High School,Moderate,Male,62.17735150436201,93.58,2026-09-07T14:56:59.897819
+13,86,Medium,Low,Yes,5,54,Medium,Yes,3,High,High,Public,Neutral,3,Yes,College,Near,Male,65.62907710490751,94.63,2026-09-07T14:57:00.202151
+25,94,High,High,No,5,85,High,Yes,1,Medium,Medium,Public,Neutral,2,No,College,Near,Female,72.97353278035098,104.03,2026-09-07T14:57:00.413462
+17,100,Medium,Medium,No,5,76,Low,Yes,3,Low,High,Private,Neutral,3,No,Postgraduate,Moderate,Female,69.27646579333644,93.88,2026-09-07T14:57:00.614503
+24,74,High,High,No,4,95,High,Yes,1,High,Medium,Public,Neutral,4,No,Postgraduate,Moderate,Female,70.3124134785388,89.1,2026-09-07T14:57:00.810840
+19,70,Medium,Low,No,7,54,High,Yes,0,Medium,Medium,Public,Positive,2,Yes,High School,Moderate,Male,62.804468761562035,100.2,2026-09-07T14:57:01.018211
+30,98,Low,Medium,No,7,51,High,Yes,0,Low,Medium,Public,Positive,2,No,High School,Near,Male,71.70963495517692,93.99,2026-09-07T14:57:01.219323
+21,95,Medium,Medium,No,7,63,Medium,Yes,1,Low,Medium,Private,Positive,4,No,Postgraduate,Near,Male,69.86460142906819,86.93,2026-09-07T14:57:01.413565
+19,77,Low,Medium,No,5,90,Low,Yes,1,Low,High,Private,Neutral,3,No,College,Near,Female,65.53573621405788,92.16,2026-09-07T14:57:01.612857
+23,77,High,High,Yes,7,51,Medium,Yes,1,Low,Low,Private,Positive,3,No,College,Moderate,Male,68.05302262811001,82.74,2026-09-07T14:57:01.800932
+3,62,Medium,Low,No,6,67,Medium,Yes,1,Low,Medium,Public,Negative,3,No,High School,Near,Male,58.83054724025006,82.88,2026-09-07T14:57:01.990254
+16,79,Medium,Medium,No,8,82,Low,Yes,2,Low,Medium,Private,Neutral,3,Yes,Postgraduate,Moderate,Female,65.10682871325074,88.37,2026-09-07T14:57:02.184619
+23,78,Medium,Medium,Yes,6,54,High,Yes,0,Low,Medium,Public,Neutral,3,No,Postgraduate,Near,Female,66.80872871101427,94.31,2026-09-07T14:57:02.385985
+20,98,Low,High,Yes,8,67,Medium,Yes,0,High,Medium,Public,Positive,3,No,High School,Near,Female,69.76543677054008,93.77,2026-09-07T14:57:02.586767
+14,86,Low,Medium,Yes,10,78,Medium,Yes,3,Medium,High,Private,Negative,4,Yes,High School,Near,Female,66.67316708155869,101.05,2026-09-07T14:57:02.897777
+20,97,Medium,High,No,5,62,Medium,Yes,1,Medium,Medium,Private,Neutral,4,No,High School,Far,Male,69.78937369477272,79.85,2026-09-07T14:57:03.083612
+20,61,Medium,High,No,9,81,Medium,Yes,0,High,High,Public,Neutral,2,Yes,High School,Near,Male,62.96924389227711,89.32,2026-09-07T14:57:03.280893
+25,62,Medium,Medium,Yes,7,95,Low,Yes,1,High,Medium,Public,Neutral,4,Yes,College,Near,Male,65.17825270049664,96.62,2026-09-07T14:57:03.484103
+20,73,High,High,No,5,70,High,Yes,1,Low,High,Public,Negative,2,No,High School,Moderate,Male,65.85349692071718,82.84,2026-09-07T14:57:03.674899
+16,78,Medium,High,No,6,83,Medium,Yes,0,Low,Low,Public,Neutral,3,Yes,College,Near,Male,66.81560711044979,84.78,2026-09-07T14:57:03.865809
+22,64,Medium,Medium,Yes,7,62,Medium,Yes,3,Low,Medium,Private,Neutral,4,No,Postgraduate,Moderate,Female,64.99746086816523,90.18,2026-09-07T14:57:04.063110
+5,95,Medium,High,Yes,8,92,Low,Yes,1,Low,High,Private,Neutral,2,No,College,Near,Female,67.59634845535193,90.64,2026-09-07T14:57:04.259922
+13,84,Low,Medium,No,10,71,Low,Yes,1,Medium,High,Public,Neutral,3,No,College,Moderate,Male,65.15218753948186,102.13,2026-09-07T14:57:04.469274
+30,74,Medium,High,No,8,94,Low,Yes,0,Medium,Medium,Public,Positive,3,No,High School,Near,Male,70.06314557226216,80.84,2026-09-07T14:57:04.657210
+30,63,High,Low,No,5,97,High,Yes,2,Low,High,Public,Positive,2,Yes,College,Moderate,Female,67.91395364542214,76.47,2026-09-07T14:57:04.840460
+39,75,Medium,High,Yes,6,82,High,Yes,1,High,Low,Public,Negative,3,No,College,Near,Male,71.48832027529578,81.39,2026-09-07T14:57:05.028264
+8,60,High,Medium,Yes,9,93,High,Yes,0,Low,High,Public,Neutral,3,No,Postgraduate,Near,Female,65.6562597567431,86.51,2026-09-07T14:57:05.222213
+20,85,Low,Medium,Yes,5,75,Low,Yes,1,Medium,Medium,Public,Neutral,2,No,College,Near,Male,66.79474730785918,90.6,2026-09-07T14:57:05.419655
+19,61,Medium,Medium,No,6,66,Medium,Yes,0,High,Medium,Public,Neutral,1,No,High School,Near,Male,61.61883278919991,84.35,2026-09-07T14:57:05.611482
+16,100,High,Low,Yes,8,63,High,Yes,2,Low,Medium,Public,Negative,3,No,High School,Moderate,Male,68.92845114686945,102.93,2026-09-07T14:57:05.821155
+31,70,Medium,High,Yes,7,66,Medium,Yes,1,High,Medium,Public,Negative,3,No,College,Near,Male,68.60956845213836,100.91,2026-09-07T14:57:06.029270
+5,61,High,Medium,No,9,84,High,Yes,1,Medium,Medium,Public,Neutral,3,No,College,Near,Male,64.30814876111819,83.35,2026-09-07T14:57:06.220075
+21,63,Medium,Medium,Yes,6,64,Low,Yes,1,High,High,Public,Negative,3,No,High School,Near,Male,62.992283746290894,92.4,2026-09-07T14:57:06.418112
+23,85,Medium,Medium,Yes,6,91,Low,Yes,1,Low,High,Public,Neutral,3,No,High School,Far,Male,69.50934482184479,89.85,2026-09-07T14:57:06.614617
+14,90,Medium,Medium,Yes,7,51,Medium,Yes,1,Medium,Medium,Public,Positive,4,Yes,High School,Near,Female,66.52538199437119,95.65,2026-09-07T14:57:06.817435
+22,91,Medium,High,No,5,61,Medium,Yes,3,Low,High,Public,Neutral,2,No,Postgraduate,Far,Male,70.32338284829804,84.49,2026-09-07T14:57:07.008602
+22,97,Medium,Medium,Yes,6,88,High,Yes,1,Low,Low,Private,Positive,4,No,College,Near,Male,71.86653743384,101.21,2026-09-07T14:57:07.216246
+25,91,Medium,High,No,7,92,Medium,Yes,3,Low,Medium,Public,Negative,5,No,High School,Near,Male,71.92323580654,75.1,2026-09-07T14:57:07.399086
+20,79,Medium,High,Yes,4,79,Low,Yes,0,Medium,High,Private,Neutral,4,No,High School,Moderate,Male,66.9886135135261,95.9,2026-09-07T14:57:07.601992
+13,93,Medium,High,Yes,7,51,Low,Yes,1,Low,High,Private,Neutral,3,No,High School,Near,Female,67.18819499579217,95.46,2026-09-07T14:57:07.804440
+18,72,Low,Low,Yes,5,61,Low,Yes,1,Medium,Medium,Private,Negative,4,No,College,Moderate,Male,62.04937768479521,107.69,2026-09-07T14:57:08.019924
+22,70,Low,Medium,Yes,6,82,Medium,Yes,1,Low,High,Public,Neutral,3,No,High School,Near,Female,65.30622398192331,102.43,2026-09-07T14:57:08.229922
+34,82,Medium,High,Yes,9,87,High,Yes,3,Low,Medium,Public,Positive,4,No,High School,Near,Female,72.62106024317562,97.17,2026-09-07T14:57:08.434391
+30,70,Medium,Medium,No,9,57,Medium,Yes,1,Low,Medium,Public,Negative,4,No,College,Far,Female,67.20524141747917,91.87,2026-09-07T14:57:08.633904
+19,70,Medium,High,Yes,10,92,Medium,Yes,1,Low,High,Public,Positive,4,No,High School,Near,Male,65.99726096781318,95.84,2026-09-07T14:57:08.836973
+18,97,Medium,High,No,8,67,Medium,Yes,1,Medium,High,Public,Neutral,3,No,High School,Near,Male,69.87135502415224,87.58,2026-09-07T14:57:09.031174
+13,67,Medium,Medium,Yes,6,80,High,Yes,1,Low,High,Public,Negative,2,No,High School,Moderate,Male,62.30052274186116,112.32,2026-09-07T14:57:09.250499
+16,93,Medium,Low,Yes,7,81,Medium,Yes,2,Low,Medium,Private,Negative,3,Yes,Postgraduate,Moderate,Male,68.0059608711938,88.95,2026-09-07T14:57:09.447177
+23,65,High,High,No,7,57,Low,No,1,High,Medium,Public,Neutral,4,No,High School,Near,Male,64.89346573686602,88.0,2026-09-07T14:57:09.641707
+21,95,Medium,Low,No,5,87,Low,Yes,2,Medium,Medium,Private,Neutral,4,No,High School,Near,Male,70.24491484137467,79.04,2026-09-07T14:57:09.828004
+28,87,Medium,Medium,No,8,95,Medium,Yes,2,Medium,Low,Private,Positive,3,No,Postgraduate,Near,Female,73.0290436784524,91.48,2026-09-07T14:57:10.028293
+19,72,Low,High,Yes,5,96,Low,No,3,Low,Low,Public,Positive,2,No,High School,Moderate,Female,65.92356848382654,99.03,2026-09-07T14:57:10.233820
+22,64,High,Low,No,7,59,High,Yes,0,Medium,High,Private,Positive,5,Yes,High School,Near,Female,63.919058212515104,86.78,2026-09-07T14:57:10.427953
+27,69,Medium,Low,Yes,5,93,Medium,Yes,1,Medium,Medium,Public,Positive,4,No,College,Moderate,Male,67.30112460469047,97.36,2026-09-07T14:57:10.631903
+12,72,Medium,Medium,Yes,8,79,High,Yes,1,High,Medium,Public,Positive,3,No,College,Far,Male,63.63250684995335,93.76,2026-09-07T14:57:10.832579
+22,64,Low,Medium,No,7,98,Low,No,1,Medium,Medium,Public,Negative,3,No,High School,Near,Male,64.15371107136843,83.84,2026-09-07T14:57:11.126079
+23,81,Medium,Low,Yes,7,74,Medium,Yes,0,Low,Medium,Public,Neutral,0,No,Postgraduate,Near,Female,67.00759174780153,98.43,2026-09-07T14:57:11.330106
+22,98,Medium,Medium,Yes,6,93,Medium,Yes,4,Low,Medium,Public,Neutral,4,No,High School,Near,Female,73.13222162538544,94.33,2026-09-07T14:57:11.532654
+16,99,Medium,High,Yes,7,60,Medium,Yes,2,Low,High,Private,Neutral,3,No,Postgraduate,Moderate,Male,70.12385269644884,93.35,2026-09-07T14:57:11.732520
+19,96,Low,Medium,No,7,71,Medium,Yes,2,Low,High,Private,Positive,3,No,Postgraduate,Moderate,Male,69.50635891324154,71.26,2026-09-07T14:57:11.910195
+14,61,Low,High,No,10,62,Medium,Yes,0,High,Medium,Public,Negative,4,No,College,Moderate,Female,60.493529527970075,93.28,2026-09-07T14:57:12.110062
+12,70,Medium,Medium,Yes,7,93,Medium,Yes,1,Low,High,Public,Neutral,4,No,High School,Far,Female,62.638323210394894,96.96,2026-09-07T14:57:12.314207
+15,88,High,High,Yes,6,95,Medium,Yes,2,Low,Medium,Public,Negative,4,No,High School,Near,Female,70.0363803737056,117.25,2026-09-07T14:57:12.538291
+30,91,High,Medium,No,9,62,Low,Yes,3,Low,High,Public,Negative,4,No,Postgraduate,Near,Female,73.24114652344541,93.48,2026-09-07T14:57:12.739712
+16,82,Medium,Medium,No,6,91,Medium,Yes,0,Low,Medium,Public,Positive,3,No,High School,Near,Female,66.91063791634798,97.18,2026-09-07T14:57:12.944009
+20,90,Low,Medium,No,7,65,Low,No,4,Low,High,Public,Positive,4,No,College,Moderate,Female,68.2235365159316,96.49,2026-09-07T14:57:13.147966
+3,83,High,Low,Yes,7,59,Low,Yes,2,Medium,High,Public,Positive,5,No,High School,Moderate,Male,63.67868073069116,94.26,2026-09-07T14:57:13.349801
+25,95,Medium,Medium,Yes,7,77,High,No,0,Low,High,Public,Neutral,3,No,Postgraduate,Near,Male,71.35749209997456,85.4,2026-09-07T14:57:13.542214
+28,95,Low,Medium,No,8,52,High,Yes,3,High,High,Public,Negative,4,No,College,Near,Male,72.91900573688163,86.98,2026-09-07T14:57:13.735590
+15,78,Medium,Medium,Yes,7,81,Medium,Yes,0,Medium,Low,Public,Neutral,2,No,High School,Near,Male,64.56833469189758,97.41,2026-09-07T14:57:13.939838
+20,86,Medium,Medium,No,6,97,Low,Yes,1,Low,Medium,Private,Neutral,2,No,High School,Moderate,Male,68.46737887324066,82.3,2026-09-07T14:57:14.129364
+24,89,High,Medium,No,8,69,Low,No,3,High,Medium,Public,Neutral,2,No,College,Near,Male,70.33194047599638,100.52,2026-09-07T14:57:14.336753
+21,94,Medium,Medium,No,7,71,Low,No,1,Low,High,Private,Neutral,2,No,Postgraduate,Near,Male,69.43031899142031,73.52,2026-09-07T14:57:14.517578
+22,72,High,Medium,Yes,5,67,Low,Yes,2,Medium,Medium,Public,Neutral,4,No,College,Near,Female,66.63522334480271,97.61,2026-09-07T14:57:14.722234
+16,93,Medium,High,No,10,55,Medium,No,2,Low,Medium,Public,Neutral,2,No,College,Near,Male,67.98198597730939,95.37,2026-09-07T14:57:14.924364
+29,96,Medium,High,Yes,8,95,Medium,Yes,0,High,Medium,Private,Positive,2,No,High School,Near,Female,74.79698578907492,85.98,2026-09-07T14:57:15.116716
+25,72,Medium,High,Yes,7,89,Medium,Yes,2,Low,High,Public,Positive,3,No,Postgraduate,Near,Female,69.60469090932374,84.66,2026-09-07T14:57:15.307280
+15,79,High,Medium,Yes,6,88,Medium,Yes,3,High,Medium,Public,Neutral,3,No,Postgraduate,Moderate,Male,68.04070629254198,105.91,2026-09-07T14:57:15.520481
+18,97,High,Medium,Yes,4,75,Low,Yes,0,Low,Medium,Public,Positive,3,No,High School,Moderate,Male,71.29419291858103,106.39,2026-09-07T14:57:15.732271
+20,79,High,High,Yes,7,85,Low,Yes,2,Medium,Medium,Public,Neutral,2,No,College,Moderate,Male,68.28886804982805,94.7,2026-09-07T14:57:15.933921
+23,73,Medium,High,No,10,85,Medium,Yes,1,Low,Medium,Public,Neutral,3,No,College,Near,Male,68.71440187409907,92.54,2026-09-07T14:57:16.132943
+27,74,Medium,High,No,6,51,High,Yes,2,Medium,Medium,Private,Positive,4,No,High School,Far,Male,68.30065832289193,94.85,2026-09-07T14:57:16.333689
+31,86,High,High,Yes,6,66,Medium,Yes,3,Medium,Medium,Public,Positive,3,No,College,Moderate,Male,71.72267972320586,85.29,2026-09-07T14:57:16.525849
+23,92,Medium,High,No,9,100,Medium,Yes,1,High,High,Public,Neutral,2,Yes,College,Near,Male,71.95440725746668,82.64,2026-09-07T14:57:16.715772
+26,79,Medium,Low,No,7,97,Medium,Yes,1,High,Medium,Private,Positive,2,No,High School,Near,Male,67.92353253292943,107.95,2026-09-07T14:57:16.930075
+14,62,Medium,High,Yes,7,79,Low,Yes,2,Medium,Medium,Private,Positive,2,No,High School,Moderate,Female,61.976688629712086,93.94,2026-09-07T14:57:17.131431
+14,70,Medium,Medium,Yes,9,88,Low,Yes,0,High,Medium,Private,Positive,4,No,College,Moderate,Female,63.226218012756476,94.41,2026-09-07T14:57:17.332220
+18,91,Medium,Medium,No,7,63,Medium,Yes,1,Medium,Medium,Public,Negative,4,No,College,Near,Male,68.091873724566,96.03,2026-09-07T14:57:17.535571
+20,68,High,Medium,Yes,7,55,High,Yes,0,Low,Low,Public,Positive,3,Yes,High School,Near,Female,63.619671383395236,95.08,2026-09-07T14:57:17.738256
+27,87,Medium,Medium,Yes,8,56,Medium,Yes,3,Medium,High,Public,Neutral,3,No,Postgraduate,Near,Male,71.19538666005137,93.85,2026-09-07T14:57:17.939255
+23,77,Medium,Medium,Yes,5,72,Medium,Yes,2,High,High,Public,Negative,5,No,College,Moderate,Female,68.38465500602734,84.32,2026-09-07T14:57:18.130801
+20,72,High,Low,Yes,7,90,Low,Yes,0,Low,High,Private,Negative,3,No,Postgraduate,Near,Female,64.82130700981223,95.67,2026-09-07T14:57:18.333388
+22,82,Low,Medium,No,5,67,Low,Yes,1,Low,High,Private,Neutral,1,Yes,Postgraduate,Near,Female,65.79017323431405,98.33,2026-09-07T14:57:18.539440
+30,70,Medium,High,Yes,9,83,Medium,Yes,1,High,Medium,Private,Neutral,2,No,Postgraduate,Near,Female,70.28767683620917,96.1,2026-09-07T14:57:18.742290
+14,62,High,Medium,No,4,100,Low,Yes,1,Low,Medium,Public,Neutral,3,No,High School,Near,Male,64.58408361206939,108.25,2026-09-07T14:57:18.957723
+27,86,Medium,Medium,No,6,74,Medium,Yes,2,High,High,Private,Neutral,3,No,High School,Near,Male,70.54553495432764,93.82,2026-09-07T14:57:19.158595
+28,65,Medium,Medium,Yes,5,59,High,Yes,2,Low,Medium,Private,Neutral,5,No,High School,Near,Male,66.61535162726808,99.69,2026-09-07T14:57:19.365303
+8,88,Medium,Medium,Yes,8,92,High,Yes,1,Low,Medium,Public,Negative,4,No,College,Near,Male,66.18616985675548,97.62,2026-09-07T14:57:19.569693
+18,67,High,Low,No,4,73,Low,Yes,0,Medium,Medium,Private,Neutral,2,No,Postgraduate,Moderate,Male,63.22672349503643,100.6,2026-09-07T14:57:19.777476
+32,93,Medium,Medium,Yes,8,93,High,Yes,1,Medium,High,Public,Negative,3,No,Postgraduate,Far,Female,74.60817986232419,95.54,2026-09-07T14:57:19.980307
+22,99,High,Low,No,7,65,Medium,Yes,3,Low,Low,Public,Neutral,3,No,Postgraduate,Near,Female,70.84993548118548,90.0,2026-09-07T14:57:20.177536
+19,61,Medium,Medium,No,7,74,Low,Yes,2,High,Medium,Public,Negative,3,No,Postgraduate,Far,Male,62.44183710617277,96.63,2026-09-07T14:57:20.381257
+26,68,Medium,High,No,6,98,Low,Yes,2,Medium,Medium,Private,Neutral,3,No,College,Far,Female,68.07862468927611,100.06,2026-09-07T14:57:20.588526
+25,92,Low,High,No,5,72,Medium,Yes,1,Medium,Medium,Public,Positive,4,No,High School,Near,Female,71.14877485453893,83.6,2026-09-07T14:57:20.779478
+23,95,High,Low,No,7,92,High,Yes,1,Low,Medium,Public,Positive,1,No,High School,Near,Female,71.00208419345859,84.18,2026-09-07T14:57:20.970814
+38,86,High,Medium,No,6,88,High,Yes,1,Low,High,Public,Negative,4,No,High School,Moderate,Female,73.51908829806555,86.96,2026-09-07T14:57:21.164797
+14,96,Medium,Low,Yes,9,69,High,Yes,0,Medium,Medium,Private,Negative,3,Yes,College,Near,Female,67.42404716638318,88.61,2026-09-07T14:57:21.360682
+27,85,High,Medium,Yes,8,66,Medium,Yes,2,Low,High,Private,Neutral,4,Yes,High School,Moderate,Male,70.51748734091903,92.87,2026-09-07T14:57:21.560332
+19,70,Medium,Medium,Yes,6,67,Medium,Yes,5,Medium,Low,Public,Positive,4,No,Postgraduate,Moderate,Female,65.68018702839507,96.32,2026-09-07T14:57:21.764107
+16,73,High,Low,Yes,8,58,Medium,Yes,1,Medium,Medium,Public,Neutral,4,No,High School,Near,Female,63.879887179128744,108.61,2026-09-07T14:57:21.979664
+22,86,High,Medium,Yes,7,56,Medium,Yes,1,High,Medium,Private,Positive,4,No,High School,Moderate,Male,68.72996984761427,103.25,2026-09-07T14:57:22.190456
+23,94,Low,Medium,No,8,58,High,Yes,5,Low,Low,Public,Neutral,6,No,High School,Near,Female,70.6242361864791,96.37,2026-09-07T14:57:22.393858
+19,62,Medium,High,Yes,6,82,Medium,Yes,0,Low,High,Public,Negative,3,Yes,College,Moderate,Male,62.67035477149109,99.75,2026-09-07T14:57:22.600031
+20,73,Medium,Low,Yes,8,93,High,Yes,1,Low,High,Public,Negative,4,No,High School,Far,Male,64.75448880955878,89.06,2026-09-07T14:57:22.796205
+23,90,High,High,No,7,87,High,Yes,1,Low,Medium,Public,Neutral,2,No,High School,Near,Female,71.5151048872916,95.19,2026-09-07T14:57:22.998326
+17,76,High,Medium,Yes,8,94,Medium,Yes,3,Medium,Medium,Public,Neutral,4,No,High School,Moderate,Female,66.91436265172277,93.65,2026-09-07T14:57:23.199136
+14,87,Medium,High,Yes,7,61,Medium,Yes,0,Low,Medium,Public,Neutral,3,No,High School,Far,Male,65.70883092409211,96.47,2026-09-07T14:57:23.402736
+6,84,Medium,Medium,Yes,6,88,Medium,Yes,1,Low,Medium,Private,Positive,5,No,Postgraduate,Moderate,Male,64.79141217273565,106.98,2026-09-07T14:57:23.616658
+30,77,Medium,Low,Yes,9,70,Medium,Yes,0,Medium,High,Public,Neutral,1,No,High School,Moderate,Male,67.95690110742818,97.32,2026-09-07T14:57:23.821103
+14,90,Medium,High,Yes,7,60,Medium,Yes,2,Medium,Medium,Public,Neutral,4,No,Postgraduate,Near,Male,68.60380245240387,86.74,2026-09-07T14:57:24.015220
+25,72,Medium,Medium,Yes,8,52,Low,Yes,0,Medium,Medium,Private,Positive,2,No,Postgraduate,Near,Male,66.75003703616966,93.95,2026-09-07T14:57:24.319543
+17,82,Medium,Medium,Yes,7,59,Medium,Yes,3,Medium,Medium,Public,Positive,4,No,College,Near,Male,66.72032021294672,102.81,2026-09-07T14:57:24.529336
+14,83,Medium,Low,Yes,6,82,Medium,Yes,0,Medium,Medium,Public,Positive,2,No,High School,Near,Female,65.37972197771148,86.13,2026-09-07T14:57:24.722982
+15,64,Low,Low,Yes,9,84,Low,Yes,0,Medium,Medium,Public,Neutral,3,No,College,Far,Male,60.017604085091726,88.06,2026-09-07T14:57:24.918270
+11,78,High,Medium,Yes,8,100,High,Yes,1,Low,Medium,Public,Neutral,3,No,High School,Moderate,Male,64.6688381551075,91.6,2026-09-07T14:57:25.117056
+25,65,Low,Medium,No,6,94,Medium,Yes,1,Low,High,Public,Negative,4,No,College,Near,Male,65.12481756211706,88.53,2026-09-07T14:57:25.313117
+25,87,Medium,Low,Yes,7,74,Low,Yes,0,Medium,High,Public,Neutral,4,Yes,High School,Near,Male,69.07430545852746,92.61,2026-09-07T14:57:25.512458
+20,62,Medium,Low,Yes,6,80,High,No,1,Medium,High,Public,Neutral,3,No,College,Moderate,Female,62.69901505351678,96.14,2026-09-07T14:57:25.715418
+22,91,High,Medium,No,6,85,Low,Yes,2,Medium,Medium,Private,Positive,2,No,High School,Moderate,Female,70.90850618398701,84.81,2026-09-07T14:57:25.907169
+19,70,Medium,Medium,Yes,6,90,Low,Yes,2,Low,Medium,Private,Positive,3,No,High School,Moderate,Male,64.9479093167904,95.6,2026-09-07T14:57:26.109273
+26,64,High,Medium,No,8,91,High,Yes,1,Medium,Medium,Public,Positive,4,No,High School,Near,Male,66.88478265758195,97.26,2026-09-07T14:57:26.312978
+11,68,High,Medium,Yes,5,87,Medium,Yes,1,Low,Medium,Public,Positive,4,Yes,High School,Far,Male,63.448864354371366,93.8,2026-09-07T14:57:26.514021
+31,88,Medium,High,No,7,83,Medium,Yes,0,Low,Medium,Private,Neutral,2,No,High School,Near,Male,71.76634591127598,93.68,2026-09-07T14:57:26.714315
+15,81,High,Medium,No,5,68,Low,No,0,Medium,High,Public,Positive,3,No,High School,Near,Female,65.36404870867288,87.1,2026-09-07T14:57:26.908138
+14,92,Medium,High,Yes,9,58,High,Yes,1,High,Low,Public,Positive,2,No,High School,Near,Male,68.38710839328641,98.4,2026-09-07T14:57:27.113769
+24,61,Low,Medium,No,5,94,Medium,Yes,3,Medium,High,Private,Neutral,2,Yes,College,Moderate,Female,64.51673707023359,95.56,2026-09-07T14:57:27.316558
+14,66,High,Low,No,7,96,Medium,Yes,3,Low,High,Public,Negative,3,No,High School,Near,Male,63.26661483427218,106.82,2026-09-07T14:57:27.531231
+19,65,Medium,High,Yes,9,60,Low,Yes,1,Low,Medium,Public,Neutral,3,No,Postgraduate,Moderate,Male,63.36541183718017,95.41,2026-09-07T14:57:27.734082
+17,78,Medium,Low,Yes,9,51,High,Yes,1,Low,Medium,Private,Neutral,3,No,High School,Moderate,Male,63.62199363379437,81.93,2026-09-07T14:57:27.923394
+21,75,High,High,No,7,70,High,Yes,1,Medium,High,Private,Neutral,3,No,Postgraduate,Near,Female,68.4902611739922,94.01,2026-09-07T14:57:28.124429
+22,82,Medium,Low,No,5,54,Medium,Yes,2,Medium,Medium,Public,Neutral,2,No,College,Moderate,Male,66.65017920420475,84.19,2026-09-07T14:57:28.314880
+29,78,High,Medium,No,6,92,Medium,Yes,2,Low,Medium,Private,Negative,4,No,High School,Near,Male,70.85277336785208,104.06,2026-09-07T14:57:28.525959
+23,80,Medium,Medium,Yes,7,91,Low,Yes,5,High,Medium,Public,Negative,1,No,High School,Near,Female,68.46963102028917,103.54,2026-09-07T14:57:28.736103
+20,93,Medium,High,No,10,97,Medium,Yes,1,Low,Medium,Public,Neutral,2,No,Postgraduate,Moderate,Male,71.22818747879934,100.69,2026-09-07T14:57:28.943965
+7,60,Medium,High,Yes,10,69,Low,Yes,0,Low,Medium,Private,Positive,3,No,College,Moderate,Female,60.15459688062367,90.64,2026-09-07T14:57:29.141820
+20,83,Medium,Medium,No,6,51,Medium,Yes,2,Low,High,Public,Negative,4,No,Postgraduate,Near,Male,66.88072759117335,100.11,2026-09-07T14:57:29.349561
+23,81,Medium,High,No,9,59,Low,Yes,2,Medium,High,Public,Neutral,2,No,College,Near,Male,68.94205964004912,96.07,2026-09-07T14:57:29.552871
+27,67,Low,Medium,Yes,6,90,Medium,Yes,2,High,High,Private,Neutral,3,No,High School,Moderate,Male,66.28259471628968,109.25,2026-09-07T14:57:29.768854
+23,64,Medium,High,Yes,8,68,Low,Yes,3,Low,High,Public,Neutral,3,No,High School,Near,Female,65.54399921459778,94.11,2026-09-07T14:57:29.969746
+16,68,Medium,Medium,Yes,7,85,Medium,Yes,1,Medium,Medium,Public,Positive,2,No,College,Near,Female,65.06766979135863,84.28,2026-09-07T14:57:30.161872
+23,71,Medium,Medium,Yes,5,50,Medium,Yes,1,Low,High,Public,Positive,1,No,College,Near,Female,67.38516126738568,90.68,2026-09-07T14:57:30.359843
+20,72,Medium,Low,Yes,6,89,Low,Yes,1,Low,Medium,Private,Negative,3,No,High School,Far,Male,63.41203584368694,103.68,2026-09-07T14:57:30.570620
+16,96,Medium,Medium,No,6,50,High,Yes,1,Medium,High,Public,Positive,3,No,College,Near,Male,68.80062163714977,99.22,2026-09-07T14:57:30.777392
+17,82,High,Medium,Yes,7,65,Medium,Yes,1,Medium,Medium,Public,Positive,5,No,High School,Near,Male,66.87020411172765,88.31,2026-09-07T14:57:31.074512
+23,68,Medium,Medium,Yes,8,80,Medium,Yes,1,Medium,Low,Public,Neutral,1,No,High School,Near,Female,65.33215593167519,95.5,2026-09-07T14:57:31.277264
+22,77,Medium,High,No,6,71,High,Yes,3,Low,Medium,Public,Negative,4,No,High School,Far,Female,67.45912379190351,93.52,2026-09-07T14:57:31.477270
+11,89,Medium,Medium,Yes,5,63,Medium,Yes,0,Medium,Medium,Public,Neutral,2,No,College,Near,Female,65.33604183192828,79.41,2026-09-07T14:57:31.663904
+28,74,Medium,Medium,Yes,9,96,Low,Yes,0,High,High,Private,Neutral,3,No,High School,Near,Female,68.869641751879,85.12,2026-09-07T14:57:31.856030
+8,84,Medium,Low,Yes,9,56,Low,Yes,1,Low,Medium,Public,Positive,2,No,High School,Moderate,Male,62.05884634014006,83.19,2026-09-07T14:57:32.149203
+20,87,Medium,Medium,No,8,89,Low,Yes,2,Medium,Medium,Public,Neutral,3,No,High School,Moderate,Male,68.430555584664,89.85,2026-09-07T14:57:32.346578
+37,79,Medium,High,No,6,95,High,Yes,1,High,Medium,Public,Negative,1,No,High School,Near,Male,72.26494631533967,82.74,2026-09-07T14:57:32.536921
+20,74,High,High,No,7,69,Low,Yes,2,High,High,Private,Neutral,2,No,College,Near,Male,66.84363147536226,99.58,2026-09-07T14:57:32.743340
+15,67,Low,Medium,Yes,5,59,Low,Yes,0,Low,Medium,Private,Neutral,3,No,High School,Near,Male,60.24386979913,107.77,2026-09-07T14:57:32.958743
+24,77,Medium,Medium,Yes,6,64,Medium,Yes,2,High,Medium,Public,Positive,4,No,High School,Near,Male,68.36987704409029,87.73,2026-09-07T14:57:33.153773
+18,76,Low,High,Yes,10,82,High,Yes,1,Medium,Medium,Private,Negative,4,No,College,Near,Male,67.27236518994283,103.85,2026-09-07T14:57:33.364630
+13,73,Medium,Medium,Yes,7,51,Medium,Yes,1,Low,Medium,Public,Positive,4,No,Postgraduate,Near,Male,63.84353602016923,94.46,2026-09-07T14:57:33.566432
+17,64,Medium,Medium,Yes,6,60,Medium,Yes,1,Medium,Medium,Private,Positive,2,Yes,High School,Near,Male,61.72374945858339,85.56,2026-09-07T14:57:33.759475
+20,84,Medium,High,Yes,6,57,High,Yes,2,Medium,Medium,Public,Positive,4,No,High School,Far,Female,67.36967096617444,85.66,2026-09-07T14:57:33.950276
+27,68,High,Medium,No,6,52,Medium,Yes,1,Medium,Low,Private,Neutral,5,No,Postgraduate,Far,Female,66.60661783055599,76.68,2026-09-07T14:57:34.131473
+16,62,Medium,Medium,Yes,7,79,Low,Yes,2,Medium,Medium,Public,Neutral,3,No,High School,Near,Male,62.80700627073005,88.12,2026-09-07T14:57:34.326527
+18,99,Medium,High,Yes,10,51,Medium,Yes,1,Medium,Low,Public,Neutral,4,No,Postgraduate,Near,Male,70.40019216532237,97.61,2026-09-07T14:57:34.531221
+15,86,Medium,High,No,8,99,High,Yes,2,Medium,Medium,Public,Neutral,5,No,High School,Near,Male,70.44846415582228,92.21,2026-09-07T14:57:34.730690
+15,78,Medium,High,Yes,9,63,Medium,No,2,Medium,Medium,Private,Positive,3,No,Postgraduate,Far,Female,66.06432444661417,92.17,2026-09-07T14:57:34.930165
+18,75,Medium,Medium,Yes,9,87,Low,Yes,3,Low,Medium,Public,Negative,3,No,Postgraduate,Near,Female,66.41901264042872,83.23,2026-09-07T14:57:35.120773
+12,68,Medium,High,No,7,98,Medium,Yes,1,Medium,High,Private,Neutral,4,No,High School,Near,Male,63.90615054137783,98.55,2026-09-07T14:57:35.326157
+23,73,High,High,No,8,78,Low,Yes,0,High,Medium,Public,Neutral,4,No,High School,Moderate,Female,67.17438435718725,84.0,2026-09-07T14:57:35.517416
+21,77,Medium,High,Yes,6,70,Low,No,2,High,Medium,Private,Positive,2,No,College,Near,Male,67.69634199328252,100.44,2026-09-07T14:57:35.725335
+11,97,Medium,Medium,Yes,8,83,Low,Yes,4,Medium,High,Private,Negative,2,No,High School,Far,Male,68.36501315518272,88.54,2026-09-07T14:57:35.921064
+7,79,Low,High,Yes,9,85,Medium,Yes,0,Medium,Medium,Public,Negative,2,No,High School,Near,Male,62.88645220016058,104.58,2026-09-07T14:57:36.132769
+26,90,Low,High,Yes,6,81,Medium,Yes,1,Low,Medium,Private,Neutral,3,No,Postgraduate,Near,Male,70.96136777946215,96.89,2026-09-07T14:57:36.337038
+16,89,High,Medium,No,9,96,Medium,Yes,2,Medium,Low,Public,Positive,3,No,College,Far,Male,68.93676100511772,103.2,2026-09-07T14:57:36.547793
+17,89,Medium,Medium,Yes,6,82,Medium,Yes,3,Medium,Medium,Private,Positive,3,No,College,Near,Female,68.95675821362015,95.47,2026-09-07T14:57:36.750653
+17,98,High,High,No,6,68,Medium,Yes,2,Medium,Medium,Public,Positive,3,No,High School,Near,Male,70.70144804205117,94.85,2026-09-07T14:57:36.952057
+7,62,High,Medium,Yes,8,51,Low,Yes,0,Medium,Low,Public,Positive,3,No,College,Moderate,Male,60.392110939990886,89.37,2026-09-07T14:57:37.148941
+19,69,Medium,High,Yes,7,82,High,Yes,1,Low,Medium,Public,Negative,2,No,High School,Near,Male,64.74417128617301,110.55,2026-09-07T14:57:37.366063
+36,96,Medium,Low,No,7,96,Medium,Yes,1,Low,High,Public,Positive,3,No,College,Moderate,Female,75.14059420029444,86.59,2026-09-07T14:57:37.559663
+12,85,Medium,Medium,Yes,6,78,High,Yes,3,Medium,Medium,Public,Neutral,4,No,College,Near,Male,67.11716384819533,87.34,2026-09-07T14:57:37.753452
+16,62,Low,Medium,No,8,74,Medium,Yes,2,High,High,Private,Neutral,3,No,High School,Moderate,Male,62.24582487733708,99.1,2026-09-07T14:57:37.959561
+27,98,Medium,High,No,4,82,Medium,Yes,0,High,Medium,Public,Positive,3,No,High School,Near,Female,74.47442622144963,80.97,2026-09-07T14:57:38.147501
+16,94,Low,Medium,No,8,85,Medium,Yes,3,Low,High,Public,Neutral,2,No,High School,Near,Female,68.34770550703338,82.16,2026-09-07T14:57:38.438516
+19,81,High,Medium,No,7,100,Medium,Yes,1,Low,Medium,Private,Negative,5,No,Postgraduate,Moderate,Female,67.52856734854107,90.91,2026-09-07T14:57:38.636013
+19,73,Medium,Medium,Yes,7,85,Medium,Yes,1,Medium,Medium,Public,Neutral,3,No,High School,Far,Male,65.14903850594311,94.58,2026-09-07T14:57:38.837737
+30,73,High,Medium,Yes,8,100,Medium,Yes,2,High,High,Public,Neutral,2,No,High School,Near,Female,70.61231332655643,85.59,2026-09-07T14:57:39.030079
+11,94,High,Low,Yes,10,61,Medium,Yes,1,Medium,Low,Public,Neutral,3,No,College,Moderate,Male,66.17975179614936,95.3,2026-09-07T14:57:39.232752
+27,91,Medium,Low,No,8,57,Medium,Yes,0,Low,Low,Private,Neutral,4,No,Postgraduate,Moderate,Male,69.21226672996777,102.95,2026-09-07T14:57:39.443382
+20,78,High,Medium,No,7,80,High,Yes,2,High,Medium,Public,Positive,3,No,College,Near,Male,68.28064857008711,81.76,2026-09-07T14:57:39.632414
+25,66,Medium,Medium,Yes,6,99,Medium,Yes,2,Medium,Medium,Public,Positive,3,No,College,Near,Female,67.1978045022188,108.28,2026-09-07T14:57:39.847585
+12,61,Low,Medium,Yes,8,92,Medium,Yes,2,High,Medium,Public,Neutral,4,Yes,High School,Moderate,Male,61.34354811797738,97.09,2026-09-07T14:57:40.052030
+23,87,Medium,Medium,Yes,6,98,Medium,Yes,3,Medium,Medium,Public,Neutral,3,No,College,Near,Male,71.10920971511008,97.39,2026-09-07T14:57:40.257027
+14,62,Medium,Medium,No,9,73,Medium,Yes,1,Low,Medium,Public,Neutral,6,No,High School,Near,Male,60.85640116488015,95.79,2026-09-07T14:57:40.459425
+27,73,Low,Low,No,9,97,Medium,Yes,2,Medium,High,Public,Neutral,1,No,High School,Near,Female,68.51570730562919,110.85,2026-09-07T14:57:40.677563
+16,72,Medium,High,No,6,58,Low,Yes,1,Medium,Medium,Public,Negative,2,No,High School,Far,Male,63.63794646267392,94.95,2026-09-07T14:57:40.879961
+29,64,Medium,High,Yes,7,74,Medium,Yes,0,High,Medium,Public,Positive,2,No,Postgraduate,Near,Female,68.0645881656166,101.72,2026-09-07T14:57:41.088865
+17,70,High,Medium,No,8,82,Low,Yes,2,High,High,Public,Negative,2,Yes,High School,Moderate,Female,64.50792393309875,95.12,2026-09-07T14:57:41.291283
+13,96,Medium,Medium,No,10,51,Medium,Yes,1,Low,Low,Public,Positive,3,No,Postgraduate,Near,Female,67.58819659846752,87.63,2026-09-07T14:57:41.486387
+34,92,High,Medium,No,7,68,Low,Yes,0,Medium,High,Public,Positive,5,No,College,Near,Female,74.96357050098308,89.03,2026-09-07T14:57:41.680964
+24,95,High,Medium,No,7,66,Low,Yes,2,High,High,Public,Negative,3,No,High School,Near,Male,71.24793059504596,106.69,2026-09-07T14:57:41.894030
+13,77,High,High,Yes,7,69,Medium,Yes,2,Low,High,Private,Neutral,5,No,College,Moderate,Male,65.95913756646483,87.59,2026-09-07T14:57:42.088766
+17,87,High,High,Yes,6,94,Medium,Yes,2,Low,Medium,Private,Neutral,3,No,High School,Moderate,Male,69.73750790778763,94.36,2026-09-07T14:57:42.290479
+34,98,Medium,High,No,7,79,Medium,Yes,1,Low,Medium,Private,Neutral,4,No,College,Near,Male,74.5043603492467,91.44,2026-09-07T14:57:42.488895
+15,89,High,Low,No,9,73,High,Yes,2,Low,Low,Private,Neutral,2,No,High School,Near,Male,66.46744920774638,99.83,2026-09-07T14:57:42.695808
+26,65,Low,Medium,No,7,53,Low,Yes,3,High,Medium,Public,Positive,2,No,High School,Near,Female,64.79251903142791,98.3,2026-09-07T14:57:42.901410
+15,77,Medium,Medium,Yes,7,52,Medium,Yes,1,Medium,Medium,Public,Neutral,2,No,College,Near,Male,64.0198177793458,95.58,2026-09-07T14:57:43.104164
+24,91,Low,Medium,Yes,8,52,Medium,Yes,1,Low,Medium,Public,Neutral,5,No,High School,Near,Male,68.6827206142046,93.59,2026-09-07T14:57:43.304197
+13,73,Medium,High,Yes,7,60,High,Yes,0,High,High,Public,Neutral,3,No,College,Near,Female,64.41320118304382,102.15,2026-09-07T14:57:43.512920
+20,81,Low,Medium,No,6,54,Low,Yes,0,Low,Low,Public,Positive,2,No,College,Moderate,Female,64.04843831781818,91.61,2026-09-07T14:57:43.708979
+17,63,Medium,Medium,No,4,92,Medium,Yes,2,Low,Medium,Public,Negative,4,No,High School,Near,Female,63.01204059634998,134.62,2026-09-07T14:57:43.949861
+25,73,High,Medium,No,6,54,High,Yes,2,Medium,Medium,Public,Neutral,4,No,High School,Moderate,Female,67.2016037701044,84.13,2026-09-07T14:57:44.138763
+19,89,Medium,Low,No,10,74,Medium,Yes,1,Low,Medium,Public,Positive,2,No,High School,Moderate,Female,66.93232296549603,92.46,2026-09-07T14:57:44.337544
+15,83,Medium,High,No,4,98,Low,Yes,3,Low,High,Public,Positive,3,No,High School,Moderate,Female,71.00755279103184,88.22,2026-09-07T14:57:44.533003
+15,98,Medium,Medium,Yes,7,89,Low,No,2,Low,Low,Public,Neutral,3,No,College,Moderate,Male,68.46007736436059,86.99,2026-09-07T14:57:44.727380
+28,73,Medium,High,Yes,6,96,Medium,Yes,1,Medium,Medium,Public,Negative,0,No,Postgraduate,Near,Female,71.0291131081939,89.79,2026-09-07T14:57:44.923729
+14,89,High,High,Yes,4,73,Medium,Yes,2,Medium,High,Public,Negative,3,No,College,Near,Male,70.30175380354117,95.08,2026-09-07T14:57:45.125157
+21,60,High,Low,No,8,78,Medium,Yes,2,Medium,High,Public,Positive,2,No,High School,Near,Female,64.52976834257434,85.58,2026-09-07T14:57:45.317378
+23,68,Medium,High,No,5,91,Low,Yes,5,Low,Medium,Public,Neutral,1,No,College,Near,Female,67.56986215513314,101.21,2026-09-07T14:57:45.525279
+14,94,Medium,High,Yes,7,71,Medium,Yes,0,Medium,Medium,Private,Negative,3,Yes,College,Moderate,Female,67.65448559136597,89.91,2026-09-07T14:57:45.721289
+19,96,Low,Low,Yes,5,70,High,Yes,0,Low,Medium,Public,Positive,2,No,High School,Far,Male,67.46420317250734,97.63,2026-09-07T14:57:45.926264
+23,91,Medium,Low,Yes,10,98,High,Yes,0,Low,High,Private,Negative,3,No,High School,Near,Female,70.0841001849743,82.04,2026-09-07T14:57:46.115368
+18,98,Low,Medium,No,9,53,Medium,Yes,0,High,Medium,Public,Neutral,1,No,High School,Moderate,Male,67.35037087495441,95.95,2026-09-07T14:57:46.316992
+24,89,High,Medium,Yes,7,99,Medium,Yes,2,Low,High,Private,Neutral,4,No,High School,Near,Female,71.06995556890661,98.61,2026-09-07T14:57:46.522733
+15,83,Medium,Low,Yes,8,91,Medium,Yes,0,Low,Medium,Private,Neutral,3,No,College,Far,Male,66.49271455040686,89.27,2026-09-07T14:57:46.719267
+26,93,High,Medium,No,5,85,Low,Yes,1,High,High,Public,Positive,3,No,College,Moderate,Female,72.88313178662828,102.2,2026-09-07T14:57:46.927880
+22,79,Low,High,Yes,6,96,Medium,Yes,1,High,Medium,Public,Neutral,2,No,College,Moderate,Male,68.20069719519022,92.07,2026-09-07T14:57:47.126331
+16,71,Medium,Medium,No,8,51,Medium,Yes,0,Low,Medium,Public,Negative,2,No,Postgraduate,Far,Female,63.1288161430644,106.9,2026-09-07T14:57:47.338405
+26,71,Medium,Medium,Yes,7,91,Medium,No,2,Low,Medium,Private,Neutral,3,No,High School,Moderate,Female,67.31008071506017,99.03,2026-09-07T14:57:47.544523
+21,74,Low,Medium,No,6,55,High,Yes,3,Low,Medium,Public,Positive,2,No,College,Near,Male,65.58117043723871,94.77,2026-09-07T14:57:47.746111
+20,64,Medium,High,No,6,53,High,No,4,High,Medium,Private,Neutral,4,No,College,Moderate,Female,64.63968152402698,84.94,2026-09-07T14:57:47.936988
+17,72,High,Medium,Yes,7,94,High,Yes,1,Low,Medium,Public,Neutral,5,No,High School,Moderate,Male,65.87254466978243,93.09,2026-09-07T14:57:48.135631
+24,72,High,Medium,Yes,7,95,Medium,Yes,3,Low,Medium,Public,Negative,2,No,Postgraduate,Near,Male,68.79787863651504,99.95,2026-09-07T14:57:48.343448
+23,74,Medium,Medium,No,4,67,Medium,Yes,3,High,Medium,Private,Negative,5,No,High School,Far,Male,66.94166781958842,91.34,2026-09-07T14:57:48.542182
+22,83,Low,High,Yes,8,53,Medium,No,0,Low,Low,Public,Negative,2,No,Postgraduate,Near,Female,66.79322834446269,99.11,2026-09-07T14:57:48.748218
+20,79,Medium,Medium,No,8,83,Medium,Yes,3,Low,Medium,Private,Neutral,4,No,College,Moderate,Male,66.54791679982935,87.86,2026-09-07T14:57:48.943253
+20,99,Low,Medium,No,7,80,High,Yes,0,Medium,High,Public,Negative,3,No,Postgraduate,Near,Male,70.8393239239393,83.64,2026-09-07T14:57:49.132815
+29,66,High,High,No,6,66,Medium,Yes,0,Medium,Medium,Private,Negative,3,No,Postgraduate,Near,Male,67.76853326355075,88.11,2026-09-07T14:57:49.430883
+23,60,High,Medium,Yes,9,56,Low,No,0,Low,Medium,Private,Negative,4,No,High School,Moderate,Female,63.89254297167706,94.34,2026-09-07T14:57:49.632796
+20,89,High,Medium,Yes,6,70,Low,Yes,1,Low,Medium,Private,Positive,3,No,High School,Moderate,Female,68.35752793244052,98.16,2026-09-07T14:57:49.838194
+12,67,Medium,High,Yes,8,77,Medium,Yes,2,Low,High,Private,Positive,3,No,College,Near,Male,62.68701877958874,93.72,2026-09-07T14:57:50.039265
+18,86,Medium,Medium,Yes,6,88,Medium,Yes,2,Medium,High,Public,Neutral,2,No,College,Far,Male,68.66019563187393,83.47,2026-09-07T14:57:50.228234
+17,86,Medium,High,No,5,97,High,Yes,3,High,Medium,Public,Neutral,3,No,College,Near,Male,70.6447923871001,94.19,2026-09-07T14:57:50.430091
+30,62,Medium,High,Yes,6,63,Medium,Yes,2,Low,High,Public,Positive,4,No,High School,Moderate,Male,66.83251962712316,97.66,2026-09-07T14:57:50.634664
+15,71,Low,Medium,No,8,60,High,No,5,Low,High,Public,Positive,4,No,High School,Far,Female,65.43856975871842,84.49,2026-09-07T14:57:50.826707
+19,97,Low,High,No,9,78,Medium,Yes,0,Medium,Medium,Private,Negative,4,No,High School,Moderate,Female,69.03365120699034,97.56,2026-09-07T14:57:51.030546
+20,99,Medium,Medium,No,8,75,Medium,Yes,2,Low,High,Private,Negative,2,No,Postgraduate,Far,Female,70.26577072526288,104.7,2026-09-07T14:57:51.242559
+31,92,Medium,Medium,Yes,4,76,Medium,Yes,2,Medium,High,Public,Positive,4,Yes,High School,Far,Male,73.6831735566413,80.5,2026-09-07T14:57:51.430452
+21,61,Medium,Medium,No,4,90,Low,Yes,2,Medium,Low,Public,Neutral,3,No,High School,Near,Male,64.07173765434254,101.42,2026-09-07T14:57:51.638417
+12,79,Low,High,No,6,55,Medium,Yes,1,Low,High,Private,Neutral,4,No,College,Far,Female,64.52120135109648,85.9,2026-09-07T14:57:51.831568
+11,82,Medium,Medium,Yes,8,88,Medium,No,1,Low,Medium,Private,Negative,2,No,Postgraduate,Moderate,Female,65.58450954668302,113.01,2026-09-07T14:57:52.051848
+17,61,Low,High,Yes,7,75,Medium,No,2,Medium,High,Public,Negative,4,No,College,Near,Female,62.55753712099866,111.71,2026-09-07T14:57:52.270736
+15,89,Medium,Low,No,6,55,Medium,Yes,1,Medium,Medium,Public,Positive,4,No,Postgraduate,Moderate,Male,65.85065090309844,93.87,2026-09-07T14:57:52.472015
+23,76,Medium,Medium,Yes,7,57,High,Yes,1,Medium,Medium,Public,Negative,3,No,High School,Moderate,Female,66.22540467296993,105.96,2026-09-07T14:57:52.684585
+20,81,High,Medium,Yes,6,51,High,No,3,Medium,Medium,Public,Neutral,4,Yes,High School,Near,Male,66.51896870783133,83.19,2026-09-07T14:57:52.872707
+15,72,Medium,Low,Yes,9,80,Medium,Yes,4,Medium,High,Private,Neutral,4,No,College,Moderate,Female,64.47474493261213,94.86,2026-09-07T14:57:53.075152
+8,95,Medium,Medium,No,7,73,Low,Yes,2,Medium,Medium,Private,Neutral,2,No,College,Near,Male,66.63449402504578,94.91,2026-09-07T14:57:53.276733
+13,89,Low,High,Yes,6,98,Medium,Yes,0,Medium,Medium,Private,Negative,4,No,High School,Near,Male,67.70963641544935,101.65,2026-09-07T14:57:53.485059
+29,62,Low,High,Yes,7,53,High,Yes,0,Low,Medium,Private,Positive,3,No,College,Moderate,Female,64.85771161770498,97.51,2026-09-07T14:57:53.689584
+23,74,High,Low,No,6,100,Low,Yes,2,High,Low,Private,Positive,3,No,High School,Near,Male,69.64045736703086,96.04,2026-09-07T14:57:53.893013
+27,95,Low,High,Yes,6,94,High,Yes,2,Medium,Medium,Public,Neutral,4,No,Postgraduate,Far,Female,73.95470011728759,98.03,2026-09-07T14:57:54.098094
+17,72,Low,Medium,No,8,96,High,Yes,2,Low,High,Public,Neutral,3,No,High School,Near,Male,65.1658216178218,94.81,2026-09-07T14:57:54.299890
+19,74,Medium,High,No,9,82,High,Yes,2,Low,Medium,Private,Neutral,3,No,High School,Moderate,Male,66.26543839678163,94.07,2026-09-07T14:57:54.501453
+23,68,Low,Low,Yes,7,92,Medium,No,3,Low,High,Private,Neutral,4,No,High School,Near,Male,65.97558427791867,97.73,2026-09-07T14:57:54.706475
+20,99,Medium,Low,Yes,5,97,Low,Yes,4,High,Medium,Public,Neutral,3,No,College,Near,Female,70.9783631215784,89.16,2026-09-07T14:57:54.902128
+20,61,High,Medium,No,8,99,Medium,Yes,0,Medium,High,Public,Neutral,4,No,College,Near,Male,64.86877251893814,89.93,2026-09-07T14:57:55.098941
+23,87,High,Low,No,6,81,Low,Yes,5,Medium,High,Private,Neutral,2,No,High School,Far,Female,70.3998918282572,89.03,2026-09-07T14:57:55.293639
+19,95,Low,Low,Yes,5,86,Medium,Yes,0,High,Medium,Public,Negative,4,No,High School,Moderate,Male,68.11081681727251,100.67,2026-09-07T14:57:55.501084
+31,63,Medium,High,No,9,86,Low,Yes,0,High,Medium,Public,Neutral,3,No,Postgraduate,Moderate,Male,67.784842731084,84.68,2026-09-07T14:57:55.693039
+35,64,Medium,Low,No,6,85,High,Yes,2,Medium,High,Private,Neutral,2,No,High School,Moderate,Male,68.60972068689571,96.96,2026-09-07T14:57:55.896695
+24,88,Medium,Medium,Yes,6,94,Medium,Yes,0,Low,Medium,Private,Negative,2,No,Postgraduate,Moderate,Male,69.33185814882133,69.77,2026-09-07T14:57:56.072012
+26,69,High,High,Yes,6,90,Medium,Yes,3,Medium,Medium,Public,Positive,3,No,College,Moderate,Female,69.49397903390084,66.86,2026-09-07T14:57:56.246323
+13,98,Medium,High,Yes,6,71,Medium,Yes,1,Low,High,Private,Positive,1,No,College,Near,Female,69.36936332412729,103.58,2026-09-07T14:57:56.456898
+26,95,Low,High,No,7,77,Medium,Yes,0,Medium,Medium,Public,Neutral,3,No,High School,Moderate,Female,71.77383880688073,86.03,2026-09-07T14:57:56.649426
+13,90,Medium,Medium,No,5,63,Medium,Yes,0,Low,Medium,Public,Neutral,4,No,High School,Moderate,Female,65.45730156367239,89.7,2026-09-07T14:57:56.843552
+23,89,Low,Medium,No,5,85,Low,Yes,0,Low,Medium,Public,Positive,3,No,Postgraduate,Moderate,Male,68.41073770397946,82.87,2026-09-07T14:57:57.033542
+15,74,High,High,No,8,60,Low,Yes,3,Low,Medium,Public,Positive,5,No,High School,Moderate,Male,64.99782103095042,109.45,2026-09-07T14:57:57.249621
+18,74,Medium,Medium,No,6,78,High,Yes,0,High,Medium,Public,Positive,2,No,High School,Moderate,Female,65.95022784035051,93.91,2026-09-07T14:57:57.450748
+10,96,Medium,Medium,No,4,99,Medium,Yes,1,Medium,Medium,Private,Negative,5,No,College,Near,Female,67.82135909447976,85.74,2026-09-07T14:57:57.643290
+26,76,Medium,Medium,No,7,59,Low,Yes,0,Medium,Medium,Public,Neutral,1,Yes,Postgraduate,Near,Male,66.17752193901667,84.34,2026-09-07T14:57:57.834061
+14,68,Medium,High,No,7,76,Medium,Yes,2,High,Medium,Public,Positive,3,No,High School,Near,Male,63.502454800444326,107.27,2026-09-07T14:57:58.047859
+13,97,High,High,No,7,70,Medium,Yes,1,Low,High,Public,Neutral,4,No,Postgraduate,Near,Female,69.59779953923312,92.43,2026-09-07T14:57:58.247376
+11,97,Medium,Medium,No,7,91,Medium,Yes,1,Medium,Medium,Public,Positive,4,No,High School,Near,Male,68.47160805395072,89.57,2026-09-07T14:57:58.444234
+29,77,Medium,Low,Yes,7,68,High,Yes,1,Medium,Medium,Public,Positive,3,No,High School,Far,Female,68.1323602000176,84.82,2026-09-07T14:57:58.636251
+21,98,Medium,High,Yes,9,70,Medium,Yes,0,Low,High,Public,Positive,1,No,College,Near,Male,70.93665029609082,106.91,2026-09-07T14:57:58.850034
+19,91,High,Low,No,6,52,Medium,Yes,2,Low,Medium,Public,Negative,4,Yes,High School,Moderate,Male,67.37603897962755,87.95,2026-09-07T14:57:59.044809
+19,65,Medium,High,Yes,9,91,Medium,Yes,1,Medium,High,Public,Positive,4,No,College,Near,Male,65.1199750526536,104.1,2026-09-07T14:57:59.255259
+2,98,Low,High,Yes,7,80,High,Yes,2,Low,High,Public,Neutral,1,No,High School,Near,Male,67.74477385473888,102.74,2026-09-07T14:57:59.465338
+23,85,Medium,Medium,Yes,7,99,High,Yes,1,Low,High,Public,Neutral,5,No,College,Near,Female,70.36441827965106,95.49,2026-09-07T14:57:59.668020
+23,81,Medium,Low,No,4,84,Medium,Yes,2,Medium,Medium,Public,Positive,5,No,High School,Near,Male,67.89590783633615,91.09,2026-09-07T14:57:59.866635
+11,97,Medium,High,Yes,8,60,Medium,Yes,0,Medium,Low,Private,Positive,3,No,High School,Near,Male,67.22177487430982,84.8,2026-09-07T14:58:00.058573
+20,95,Medium,Low,Yes,7,62,Low,Yes,2,Low,Medium,Public,Neutral,4,No,College,Moderate,Male,68.56872889996974,83.88,2026-09-07T14:58:00.248838
+18,86,Low,Low,Yes,9,64,Low,Yes,3,Low,High,Public,Positive,3,No,High School,Near,Female,66.39656663266803,112.71,2026-09-07T14:58:00.468089
+23,61,Medium,High,Yes,8,85,Medium,Yes,1,Medium,High,Private,Positive,0,No,High School,Near,Male,65.6759994133683,95.45,2026-09-07T14:58:00.670926
+11,94,Medium,Low,Yes,8,66,High,No,1,High,Low,Public,Neutral,4,No,High School,Near,Female,66.0219166423069,95.48,2026-09-07T14:58:00.873670
+26,66,High,High,Yes,5,82,Medium,Yes,1,Low,Medium,Public,Neutral,3,No,High School,Near,Female,66.89651440245845,83.36,2026-09-07T14:58:01.063666
+28,73,Low,Medium,Yes,8,54,Medium,Yes,4,Medium,Medium,Private,Neutral,1,No,High School,Near,Female,67.23565168520177,91.03,2026-09-07T14:58:01.261700
+28,89,Medium,Low,Yes,6,71,Low,Yes,2,Low,Medium,Private,Neutral,4,No,College,Moderate,Male,69.864276478355,96.69,2026-09-07T14:58:01.465557
+23,95,Medium,Medium,Yes,7,75,Medium,Yes,2,High,Medium,Public,Positive,2,No,College,Near,Male,71.23660363500703,95.58,2026-09-07T14:58:01.667778
+20,79,Low,Medium,Yes,6,59,Medium,Yes,0,Low,Medium,Public,Positive,2,No,High School,Moderate,Male,64.34669501621369,100.74,2026-09-07T14:58:01.874496
+3,99,Medium,Low,Yes,7,68,Medium,Yes,2,High,Medium,Private,Neutral,3,No,High School,Near,Female,64.99395467186501,98.83,2026-09-07T14:58:02.080060
+22,95,High,Medium,No,7,59,Medium,Yes,2,Low,Medium,Public,Negative,3,Yes,High School,Near,Male,69.90468891539695,72.06,2026-09-07T14:58:02.259465
+18,79,Medium,High,No,9,92,Low,Yes,1,Low,Medium,Private,Neutral,3,No,College,Near,Male,67.02988876411075,85.37,2026-09-07T14:58:02.451230
+22,74,Medium,Low,No,5,61,Medium,Yes,1,Low,Medium,Public,Positive,3,No,Postgraduate,Near,Female,65.29461824112171,107.82,2026-09-07T14:58:02.665683
+35,68,Low,High,Yes,5,64,Medium,Yes,0,High,Low,Public,Positive,4,Yes,High School,Near,Male,67.60457106101887,100.05,2026-09-07T14:58:02.872984
+21,79,Medium,Low,Yes,7,81,Low,Yes,2,Medium,Medium,Public,Neutral,4,No,High School,Near,Male,66.9276803130824,91.54,2026-09-07T14:58:03.071651
+13,70,Medium,Medium,No,5,59,Medium,Yes,0,Medium,High,Private,Positive,2,No,Postgraduate,Near,Female,62.040661797181755,96.59,2026-09-07T14:58:03.275327
+29,86,Medium,High,No,10,84,Low,Yes,1,Low,High,Private,Positive,4,No,High School,Near,Female,71.68073151595878,93.49,2026-09-07T14:58:03.578460
+17,67,Medium,Medium,Yes,4,71,Medium,Yes,3,Medium,High,Public,Negative,2,No,High School,Moderate,Female,63.648087227457864,87.4,2026-09-07T14:58:03.772880
+14,94,High,High,Yes,8,83,Medium,Yes,4,Medium,Low,Public,Negative,5,Yes,Postgraduate,Near,Female,73.14271078885693,109.59,2026-09-07T14:58:03.988941
+30,69,Medium,Medium,No,8,92,Medium,Yes,2,Medium,Low,Public,Neutral,3,No,High School,Near,Female,68.199813676999,96.25,2026-09-07T14:58:04.191922
+13,81,Low,Medium,Yes,6,85,Low,Yes,1,Low,Medium,Private,Neutral,3,No,High School,Moderate,Male,64.72806688261231,86.06,2026-09-07T14:58:04.385156
+26,98,Low,Medium,Yes,6,73,Medium,Yes,2,Low,Low,Public,Negative,3,No,High School,Near,Female,70.98856100678655,89.52,2026-09-07T14:58:04.581475
+19,67,Medium,Medium,Yes,6,75,High,Yes,1,Low,Medium,Public,Neutral,3,No,College,Near,Female,63.80611282628196,99.71,2026-09-07T14:58:04.788181
+15,73,Medium,High,No,5,61,Low,No,1,Low,High,Private,Positive,2,No,Postgraduate,Moderate,Male,64.41306304189894,90.2,2026-09-07T14:58:04.985717
+21,69,Medium,Medium,Yes,5,62,High,Yes,2,Low,Medium,Public,Positive,3,No,High School,Near,Male,65.53381939799866,84.98,2026-09-07T14:58:05.178055
+18,64,Medium,Low,Yes,10,68,Low,Yes,1,Low,Medium,Public,Positive,5,No,High School,Near,Male,62.305116988683416,90.0,2026-09-07T14:58:05.374692
+18,93,Low,High,Yes,6,80,Medium,Yes,1,Medium,Medium,Private,Negative,3,No,High School,Near,Male,69.31607376209652,87.35,2026-09-07T14:58:05.569602
+20,89,High,Medium,Yes,9,82,Medium,Yes,2,High,High,Public,Neutral,3,No,College,Near,Female,71.37774611266744,92.31,2026-09-07T14:58:05.769407
+18,79,Low,High,No,4,74,Low,Yes,2,Low,Medium,Public,Negative,1,No,High School,Near,Female,66.50297781084492,93.71,2026-09-07T14:58:05.970467
+24,86,Medium,Medium,Yes,7,88,Medium,Yes,1,Low,Medium,Public,Neutral,3,No,High School,Far,Male,69.35975219533424,81.55,2026-09-07T14:58:06.159209
+17,66,Medium,Medium,Yes,7,89,Medium,Yes,0,Medium,Medium,Private,Negative,3,No,College,Near,Male,63.53888204441471,97.66,2026-09-07T14:58:06.363709
+16,76,Low,Medium,Yes,5,79,Medium,Yes,0,Low,High,Public,Positive,4,No,Postgraduate,Moderate,Female,65.57653845765736,93.91,2026-09-07T14:58:06.565211
+29,71,Medium,Medium,Yes,6,86,Medium,Yes,1,Low,Medium,Public,Positive,2,No,College,Near,Female,68.14496997757489,87.73,2026-09-07T14:58:06.759196
+12,96,Low,Medium,Yes,7,71,High,Yes,2,Medium,Medium,Private,Positive,2,No,College,Near,Male,68.06770159715957,94.31,2026-09-07T14:58:06.958318
+21,77,Low,Medium,Yes,7,65,Medium,Yes,2,Low,High,Public,Negative,2,No,High School,Moderate,Female,65.14072064098073,106.3,2026-09-07T14:58:07.171682
+21,70,Medium,Medium,Yes,7,83,Medium,Yes,1,Medium,Medium,Public,Neutral,3,No,High School,Far,Male,65.25282209534834,97.14,2026-09-07T14:58:07.376054
+18,73,Low,Medium,Yes,8,88,Low,Yes,3,Low,Medium,Public,Positive,4,No,College,Moderate,Male,65.54983106442897,95.79,2026-09-07T14:58:07.681185
+19,98,Low,High,Yes,7,67,High,Yes,1,Medium,Medium,Private,Negative,4,No,High School,Moderate,Female,69.25600872030067,84.09,2026-09-07T14:58:07.975027
+23,87,High,High,Yes,10,87,Medium,Yes,1,Medium,Medium,Private,Positive,3,No,College,Near,Male,71.81798992205977,93.04,2026-09-07T14:58:08.175133
+30,88,High,Medium,Yes,6,64,Medium,Yes,1,High,Medium,Public,Neutral,2,No,College,Near,Female,71.41986074160245,94.31,2026-09-07T14:58:08.376028
+28,90,High,Low,Yes,8,75,Medium,Yes,1,Low,High,Public,Neutral,3,Yes,High School,Moderate,Male,71.10812520584217,93.11,2026-09-07T14:58:08.576456
+28,83,Medium,Low,No,8,61,Medium,Yes,1,Low,Medium,Private,Negative,5,Yes,Postgraduate,Near,Male,68.0351189166311,102.48,2026-09-07T14:58:08.785532
+9,78,Medium,Medium,No,7,98,Low,Yes,3,Low,Medium,Public,Positive,2,No,High School,Near,Male,63.665325429944694,95.52,2026-09-07T14:58:08.987928
+27,77,Low,High,No,7,86,High,Yes,1,High,High,Public,Negative,3,No,College,Near,Male,69.78990748955785,84.37,2026-09-07T14:58:09.178478
+23,99,Medium,High,No,7,89,High,Yes,1,Medium,Medium,Public,Neutral,3,No,High School,Near,Female,73.03765554569752,105.37,2026-09-07T14:58:09.389999
+14,73,High,Medium,Yes,6,57,High,Yes,2,Medium,Medium,Public,Neutral,4,No,High School,Moderate,Female,64.29466753480534,100.85,2026-09-07T14:58:09.598182
+22,95,Low,High,Yes,6,69,High,Yes,3,Medium,Medium,Public,Neutral,2,Yes,Postgraduate,Far,Male,70.61773323259081,102.93,2026-09-07T14:58:09.808411
+17,79,High,High,Yes,8,78,Medium,Yes,2,High,Medium,Public,Positive,5,No,High School,Near,Female,68.52993617202533,95.4,2026-09-07T14:58:10.011142
+20,64,Medium,High,No,8,82,Medium,Yes,3,Medium,Low,Public,Negative,3,No,High School,Moderate,Female,64.63438291889473,89.7,2026-09-07T14:58:10.208457
+25,65,High,Medium,Yes,4,84,High,Yes,1,High,Medium,Public,Positive,2,No,High School,Near,Male,66.47365358514834,92.79,2026-09-07T14:58:10.511365
+18,65,Medium,High,No,6,83,Low,Yes,1,Medium,High,Private,Neutral,2,No,High School,Near,Male,64.05851506256593,82.6,2026-09-07T14:58:10.700821
+8,99,Medium,Medium,No,9,54,Low,Yes,2,Low,Medium,Public,Neutral,5,No,Postgraduate,Near,Female,67.05859714865781,96.83,2026-09-07T14:58:10.904622
+19,62,High,Medium,Yes,9,94,Medium,Yes,0,High,Low,Public,Neutral,4,No,Postgraduate,Near,Female,65.43194593739996,94.99,2026-09-07T14:58:11.106909
+17,82,High,Low,No,9,56,Low,Yes,3,High,Medium,Public,Positive,2,No,High School,Near,Female,66.16370607002804,82.64,2026-09-07T14:58:11.296904
+24,76,Low,High,No,8,83,Medium,Yes,1,High,Medium,Private,Positive,4,No,High School,Near,Female,67.2100117402822,95.57,2026-09-07T14:58:11.498915
+25,73,Low,Low,No,8,69,Medium,Yes,3,Medium,Medium,Private,Positive,3,No,High School,Near,Female,66.51660168696884,82.06,2026-09-07T14:58:11.687406
+12,69,High,Medium,Yes,7,92,Low,Yes,1,Medium,Medium,Public,Neutral,3,No,College,Near,Female,64.09379655435289,71.61,2026-09-07T14:58:11.864337
+22,72,Low,Medium,No,6,70,Low,Yes,1,High,Medium,Public,Neutral,3,No,Postgraduate,Far,Male,64.49932411873743,104.18,2026-09-07T14:58:12.075981
+16,66,Low,Medium,Yes,8,87,High,Yes,3,Medium,Medium,Public,Positive,2,No,High School,Moderate,Female,65.54489699791272,79.59,2026-09-07T14:58:12.365505
+26,77,Medium,Medium,Yes,8,61,Medium,Yes,1,Low,Medium,Public,Neutral,4,No,College,Moderate,Male,67.02715530390351,94.94,2026-09-07T14:58:12.567812
+20,90,High,Medium,No,7,74,Low,No,0,High,Low,Private,Positive,3,No,Postgraduate,Moderate,Female,69.5095058342179,104.84,2026-09-07T14:58:12.779303
+25,88,Medium,Medium,Yes,8,95,Low,Yes,1,High,High,Public,Neutral,4,No,High School,Near,Female,70.61261441892354,93.01,2026-09-07T14:58:12.979550
+21,75,Medium,Low,Yes,8,75,High,Yes,1,Medium,Medium,Private,Negative,2,No,High School,Moderate,Male,65.17778574378227,106.4,2026-09-07T14:58:13.193261
+19,79,Medium,High,Yes,5,59,Medium,Yes,2,Low,Medium,Private,Neutral,2,No,Postgraduate,Far,Male,66.39103327699948,89.74,2026-09-07T14:58:13.389660
+17,83,Low,Medium,No,9,80,Medium,Yes,4,Medium,High,Public,Negative,2,No,College,Near,Female,67.21259336040808,97.58,2026-09-07T14:58:13.594585
+26,63,Medium,Medium,Yes,5,76,Medium,Yes,3,Medium,High,Public,Neutral,5,Yes,High School,Near,Female,66.44181651196517,98.12,2026-09-07T14:58:13.800291
+36,76,Medium,Medium,No,6,96,Medium,Yes,1,Low,Medium,Private,Neutral,2,No,College,Near,Male,71.56832407103387,83.94,2026-09-07T14:58:13.991590
+23,74,Medium,High,Yes,6,93,Medium,Yes,4,High,Medium,Private,Neutral,3,No,High School,Near,Female,68.24519145726981,98.16,2026-09-07T14:58:14.196672
+18,96,Medium,High,Yes,6,92,Medium,Yes,2,Medium,Medium,Public,Positive,3,No,High School,Far,Male,71.87579381574137,99.77,2026-09-07T14:58:14.403692
+15,74,Low,Low,No,10,71,Medium,Yes,0,Low,High,Public,Negative,2,No,Postgraduate,Near,Male,62.85468166597328,93.72,2026-09-07T14:58:14.605016
+15,96,Medium,Low,No,7,54,Low,Yes,0,Low,Medium,Public,Neutral,3,No,College,Near,Female,67.38729148011595,99.18,2026-09-07T14:58:14.811682
+26,62,Medium,Medium,Yes,8,69,Medium,Yes,2,Medium,High,Public,Positive,3,No,College,Moderate,Female,65.54602702561618,98.32,2026-09-07T14:58:15.017272
+20,92,Medium,Medium,Yes,9,93,Low,Yes,3,High,Medium,Public,Positive,2,No,College,Near,Female,70.74139646775134,101.16,2026-09-07T14:58:15.225722
+30,99,Medium,Medium,Yes,5,70,Low,Yes,2,Medium,Medium,Public,Neutral,4,No,High School,Near,Female,73.13415513625041,96.14,2026-09-07T14:58:15.428744
+19,79,Medium,High,Yes,7,66,Low,Yes,3,High,Medium,Public,Positive,3,Yes,High School,Near,Male,67.49022864761504,97.18,2026-09-07T14:58:15.735896
+15,92,Low,Medium,No,8,69,Medium,Yes,1,High,Medium,Private,Neutral,4,No,Postgraduate,Near,Male,67.75031193725152,87.38,2026-09-07T14:58:15.930678
+21,97,Medium,Medium,Yes,6,80,Low,Yes,2,Medium,Medium,Private,Positive,4,No,College,Near,Male,71.94379203741093,104.09,2026-09-07T14:58:16.141331
+18,89,Medium,Medium,Yes,6,52,Medium,Yes,3,High,High,Public,Positive,3,No,High School,Moderate,Female,68.06566132973478,95.75,2026-09-07T14:58:16.344476
+14,84,High,Medium,Yes,9,86,High,Yes,1,Low,Medium,Private,Positive,4,No,High School,Near,Female,67.41773050922615,101.24,2026-09-07T14:58:16.553189
+13,76,Low,Medium,Yes,10,97,High,Yes,4,Low,Low,Public,Neutral,3,No,College,Moderate,Male,64.76340815016339,104.2,2026-09-07T14:58:16.765051
+18,71,High,Medium,No,9,71,Medium,Yes,1,Medium,High,Public,Positive,3,No,High School,Moderate,Female,65.45330679963807,83.5,2026-09-07T14:58:16.954530
+30,100,High,High,Yes,6,90,Low,Yes,0,Medium,Low,Public,Positive,2,Yes,High School,Near,Male,74.77253124691939,82.63,2026-09-07T14:58:17.143673
+28,99,Medium,Medium,Yes,6,88,Medium,Yes,3,Low,Medium,Public,Positive,4,No,High School,Near,Female,73.94390798246886,90.73,2026-09-07T14:58:17.340827
+25,85,High,High,No,5,59,Medium,Yes,3,Low,Medium,Public,Neutral,4,No,High School,Near,Female,69.92172731514567,99.06,2026-09-07T14:58:17.547298
+23,91,High,Low,No,6,57,Medium,Yes,2,Low,Medium,Private,Positive,3,No,High School,Near,Male,69.34138617792465,99.08,2026-09-07T14:58:17.753527
+26,99,Medium,Medium,No,6,94,High,Yes,2,Medium,Medium,Public,Positive,3,No,High School,Near,Male,74.21203510541743,99.91,2026-09-07T14:58:17.960522
+26,64,Medium,High,No,6,91,Medium,Yes,1,Low,Medium,Private,Neutral,4,No,High School,Moderate,Male,66.21217999172546,98.71,2026-09-07T14:58:18.166209
+11,76,Medium,Medium,Yes,7,71,Medium,No,1,Medium,Low,Public,Neutral,2,No,College,Near,Male,63.87193390984865,100.6,2026-09-07T14:58:18.374495
+9,90,Medium,Medium,Yes,8,65,Medium,Yes,0,Medium,Medium,Private,Neutral,5,No,High School,Far,Male,64.8831901858254,88.11,2026-09-07T14:58:18.567367
+13,88,Medium,Medium,Yes,4,68,High,Yes,1,High,Medium,Public,Positive,2,No,High School,Near,Female,67.0440913279097,89.14,2026-09-07T14:58:18.763675
+18,78,Low,Medium,Yes,9,59,High,No,0,High,High,Private,Positive,1,No,High School,Moderate,Female,65.39012839077927,90.58,2026-09-07T14:58:18.961016
+17,67,High,High,Yes,9,94,Medium,Yes,2,Low,Low,Private,Positive,3,No,High School,Near,Female,65.59976971484258,88.21,2026-09-07T14:58:19.155947
+20,71,Medium,Medium,Yes,5,75,Low,Yes,0,Medium,Medium,Private,Positive,4,No,High School,Near,Male,65.29536060088049,91.69,2026-09-07T14:58:19.355272
+17,78,Medium,High,No,7,64,Medium,Yes,0,Low,Medium,Private,Neutral,3,No,High School,Near,Female,65.21924797460541,88.86,2026-09-07T14:58:19.551243
+32,61,High,Medium,Yes,7,69,High,Yes,0,High,Medium,Public,Positive,3,No,High School,Moderate,Female,67.6672061046854,101.89,2026-09-07T14:58:19.760616
+28,62,Low,High,No,8,85,Medium,Yes,2,Low,High,Public,Positive,3,No,High School,Moderate,Female,66.21978902850202,92.47,2026-09-07T14:58:19.960455
+23,75,Low,High,No,6,71,Low,Yes,0,Medium,Medium,Public,Neutral,2,No,College,Near,Male,66.07626716983665,70.07,2026-09-07T14:58:20.136568
+29,77,Low,High,No,6,85,Medium,Yes,1,Medium,Medium,Public,Positive,1,No,College,Near,Male,70.1841117992341,109.05,2026-09-07T14:58:20.352138
+22,88,Medium,Medium,Yes,9,58,Low,Yes,3,Low,Medium,Private,Negative,2,No,College,Moderate,Male,68.16915970587301,87.85,2026-09-07T14:58:20.546880
+17,86,Low,Medium,No,6,62,Low,Yes,2,Medium,High,Public,Positive,4,No,High School,Near,Female,66.55514176736924,96.92,2026-09-07T14:58:20.750464
+31,96,Medium,Medium,Yes,8,93,Low,Yes,3,Low,Medium,Public,Positive,3,No,High School,Near,Male,74.43980249548432,102.79,2026-09-07T14:58:20.959997
+28,80,Medium,High,Yes,8,61,Low,Yes,1,Low,Medium,Private,Negative,3,No,College,Far,Female,68.42200161435301,98.58,2026-09-07T14:58:21.266730
+30,84,High,Low,Yes,5,66,Low,Yes,0,Medium,Low,Public,Positive,2,No,Postgraduate,Near,Female,70.14568629071917,95.75,2026-09-07T14:58:21.467667
+14,78,High,High,Yes,8,80,Low,Yes,1,Medium,Medium,Public,Neutral,1,No,High School,Near,Female,66.72258492142024,92.85,2026-09-07T14:58:21.666458
+5,84,Medium,Medium,Yes,8,93,High,Yes,4,High,High,Public,Positive,3,No,College,Moderate,Male,65.39908830613423,83.11,2026-09-07T14:58:21.857263
+11,100,High,High,Yes,8,58,High,Yes,1,Low,Medium,Private,Positive,3,No,College,Near,Female,69.29382830022486,88.29,2026-09-07T14:58:22.052474
+27,76,High,High,Yes,9,55,Medium,Yes,3,Low,Medium,Private,Neutral,0,No,High School,Moderate,Female,69.00511997714794,93.35,2026-09-07T14:58:22.253652
+21,83,High,Low,Yes,7,89,Low,No,0,Low,Low,Public,Neutral,2,No,College,Moderate,Female,67.67138941089986,85.78,2026-09-07T14:58:22.446116
+20,78,Medium,Medium,No,6,77,Medium,Yes,3,Medium,Medium,Private,Positive,3,No,High School,Moderate,Male,66.84940067274242,115.95,2026-09-07T14:58:22.669304
+23,99,Low,Low,Yes,6,68,High,Yes,1,Medium,Medium,Public,Neutral,3,Yes,College,Far,Male,69.55458835065475,91.37,2026-09-07T14:58:22.868380
+24,80,Medium,High,Yes,7,99,Low,Yes,2,Medium,Medium,Public,Negative,2,No,High School,Moderate,Female,69.29417963058697,96.62,2026-09-07T14:58:23.071726
+21,72,Medium,High,Yes,9,80,Low,Yes,1,Medium,Medium,Public,Neutral,3,No,High School,Near,Female,67.65015318429754,105.61,2026-09-07T14:58:23.284729
+22,65,Medium,Medium,Yes,9,66,High,Yes,2,Medium,Medium,Public,Negative,4,No,High School,Near,Male,64.50070174146595,98.16,2026-09-07T14:58:23.490034
+11,81,Low,High,Yes,7,63,Medium,Yes,3,Medium,Medium,Public,Neutral,2,No,Postgraduate,Near,Male,65.34211190907001,106.45,2026-09-07T14:58:23.703786
+22,64,Medium,Medium,No,6,73,High,Yes,3,Medium,Medium,Public,Positive,4,No,Postgraduate,Moderate,Female,65.58080581290467,98.04,2026-09-07T14:58:24.011868
+16,71,Medium,High,No,9,69,Medium,Yes,1,Low,Medium,Public,Neutral,4,No,Postgraduate,Near,Female,65.23108580425017,85.58,2026-09-07T14:58:24.204783
+21,66,Medium,Medium,No,9,62,Low,No,3,Medium,Medium,Private,Positive,2,No,High School,Near,Male,64.96519910057039,87.07,2026-09-07T14:58:24.399220
+9,87,Low,Low,No,8,71,Low,No,0,Low,High,Public,Neutral,1,No,College,Moderate,Male,62.64735265277479,105.82,2026-09-07T14:58:24.612857
+16,84,Medium,High,Yes,8,51,Low,Yes,0,Medium,Medium,Public,Negative,3,No,Postgraduate,Near,Female,66.12219677661109,94.1,2026-09-07T14:58:24.814243
+19,99,Low,Low,No,8,79,High,Yes,3,Medium,Medium,Private,Positive,4,No,High School,Near,Male,70.28846191401723,97.26,2026-09-07T14:58:25.018120
+27,90,High,Medium,No,8,96,High,Yes,0,Medium,Medium,Public,Negative,4,No,High School,Moderate,Male,72.26612766118888,104.22,2026-09-07T14:58:25.228875
+34,79,High,Low,Yes,7,79,Low,Yes,3,Medium,High,Private,Negative,2,Yes,High School,Moderate,Male,70.08407890186739,84.44,2026-09-07T14:58:25.420504
+7,61,Low,High,Yes,4,76,High,Yes,1,Medium,Medium,Private,Positive,5,No,High School,Far,Female,60.16145279545624,108.16,2026-09-07T14:58:25.634871
+17,85,Medium,Low,No,7,94,High,Yes,4,Low,Medium,Public,Positive,3,No,College,Near,Female,67.7921912634762,88.66,2026-09-07T14:58:25.830905
+21,84,High,Low,Yes,8,87,Low,Yes,2,High,Medium,Public,Positive,1,No,Postgraduate,Far,Female,69.66451811591669,102.1,2026-09-07T14:58:26.040169
+17,72,High,High,Yes,6,65,Low,Yes,3,Low,High,Public,Positive,2,No,Postgraduate,Far,Male,66.49084316518754,98.76,2026-09-07T14:58:26.246185
+8,61,Medium,Medium,Yes,7,54,Medium,Yes,1,High,Medium,Public,Positive,3,No,College,Near,Male,60.493055110367955,77.01,2026-09-07T14:58:26.431024
+31,84,Medium,Medium,Yes,9,87,Medium,Yes,2,Low,Medium,Private,Neutral,3,No,College,Far,Male,71.93131391724049,93.56,2026-09-07T14:58:26.631948
+20,86,Low,Medium,No,9,57,Medium,Yes,0,Medium,High,Public,Positive,4,No,High School,Moderate,Male,66.13056542994897,89.22,2026-09-07T14:58:26.827999
+15,75,Medium,High,Yes,4,65,High,Yes,1,Low,Low,Private,Positive,4,No,Postgraduate,Moderate,Female,66.64040760618556,84.74,2026-09-07T14:58:27.019680
+28,64,Medium,Medium,Yes,9,56,Medium,Yes,1,Low,Low,Public,Negative,2,No,College,Near,Male,65.9824020276766,94.75,2026-09-07T14:58:27.220849
+13,72,Medium,High,No,8,56,Low,Yes,1,Low,High,Public,Positive,4,No,Postgraduate,Moderate,Female,64.04799907517413,95.75,2026-09-07T14:58:27.423900
+26,67,Low,Medium,Yes,5,62,High,Yes,0,Medium,Medium,Public,Negative,2,No,High School,Moderate,Male,63.76757645149763,88.84,2026-09-07T14:58:27.722732
+20,91,High,High,Yes,5,61,Low,Yes,4,Low,Medium,Public,Positive,2,No,Postgraduate,Near,Male,72.07871603818417,104.65,2026-09-07T14:58:27.934486
+11,70,Medium,Medium,No,6,98,Medium,Yes,3,High,Medium,Private,Neutral,4,No,Postgraduate,Near,Female,64.78977219361835,96.21,2026-09-07T14:58:28.137817
+36,71,Medium,Medium,Yes,6,56,Medium,Yes,2,High,Medium,Public,Positive,2,No,High School,Far,Male,68.51351587066554,97.73,2026-09-07T14:58:28.343202
+33,76,Medium,Medium,Yes,10,92,Low,Yes,1,High,Medium,Private,Positive,3,No,Postgraduate,Near,Female,71.42828945529993,100.81,2026-09-07T14:58:28.551200
+23,68,Medium,High,No,7,53,High,Yes,3,High,Medium,Public,Neutral,3,No,High School,Moderate,Female,66.26808576438872,88.1,2026-09-07T14:58:28.746919
+29,72,Medium,Medium,No,7,68,Low,Yes,0,Low,Medium,Public,Positive,3,No,College,Near,Female,67.1760871073371,96.99,2026-09-07T14:58:28.951311
+20,72,Medium,Medium,No,9,90,Low,Yes,1,Medium,Medium,Private,Neutral,2,No,Postgraduate,Moderate,Male,65.81812491692685,87.88,2026-09-07T14:58:29.143956
+14,98,High,High,No,7,51,Medium,Yes,0,Medium,Low,Public,Positive,1,Yes,High School,Near,Male,69.07237198333452,83.65,2026-09-07T14:58:29.436899
+25,93,Medium,Medium,Yes,10,60,Low,Yes,1,Medium,Medium,Public,Positive,3,No,College,Moderate,Male,70.38813157995847,86.85,2026-09-07T14:58:29.630312
+23,76,Low,High,Yes,7,93,Medium,Yes,2,Low,Medium,Public,Negative,2,No,College,Near,Male,67.71129538681986,97.12,2026-09-07T14:58:29.834181
+18,86,High,Medium,No,8,60,Medium,Yes,2,Low,High,Private,Neutral,1,No,College,Near,Male,72.15507325813275,83.8,2026-09-07T14:58:30.025395
+24,71,High,High,Yes,10,93,Low,Yes,2,Medium,Medium,Private,Positive,2,Yes,College,Near,Female,70.63878526291117,98.72,2026-09-07T14:58:30.230545
+32,95,Medium,High,Yes,9,58,Medium,Yes,2,Medium,Medium,Private,Positive,4,No,High School,Near,Male,74.82312923090895,102.8,2026-09-07T14:58:30.440375
+26,96,High,High,Yes,10,64,Low,Yes,2,Medium,Medium,Private,Neutral,3,Yes,High School,Near,Female,72.87672011258688,97.24,2026-09-07T14:58:30.645008
+24,71,Medium,Medium,Yes,5,74,Medium,Yes,1,Medium,Medium,Private,Positive,3,No,High School,Near,Male,66.0077163119579,85.69,2026-09-07T14:58:30.837392
+30,90,High,Medium,No,10,67,High,Yes,2,Medium,Medium,Private,Neutral,6,No,High School,Near,Male,73.66775727985616,89.67,2026-09-07T14:58:31.034531
+25,60,Medium,Low,No,6,71,Low,Yes,2,High,Medium,Public,Positive,2,No,High School,Near,Male,63.65712744908551,107.55,2026-09-07T14:58:31.248801
+12,99,High,High,No,8,71,Medium,Yes,2,Medium,Low,Public,Neutral,2,No,College,Near,Female,69.5069710883522,86.52,2026-09-07T14:58:31.442366
+16,62,Medium,Medium,No,7,73,Low,Yes,3,High,Medium,Public,Negative,3,No,High School,Near,Female,62.827302495484304,98.55,2026-09-07T14:58:31.647998
+22,71,Low,Medium,Yes,7,65,Low,Yes,1,Medium,Low,Public,Positive,4,No,College,Moderate,Male,65.03907029237345,74.93,2026-09-07T14:58:31.829869
+8,86,High,Low,Yes,8,98,Low,Yes,1,Low,Medium,Private,Neutral,1,No,College,Near,Male,64.64199495999681,97.23,2026-09-07T14:58:32.033727
+18,97,High,Low,Yes,8,95,High,Yes,1,Medium,Medium,Public,Positive,2,No,Postgraduate,Moderate,Male,71.34891290236564,96.06,2026-09-07T14:58:32.236115
+29,98,Medium,High,No,5,86,Low,Yes,2,Medium,Medium,Private,Negative,4,No,High School,Far,Male,73.48215966240436,97.67,2026-09-07T14:58:32.440561
+14,67,Low,Low,Yes,7,66,Low,Yes,0,Low,Medium,Public,Neutral,4,No,High School,Far,Female,59.2949805924457,97.48,2026-09-07T14:58:32.645370
+24,75,Medium,High,Yes,9,75,High,Yes,0,Medium,High,Public,Positive,3,No,College,Far,Male,69.25222458194487,94.11,2026-09-07T14:58:32.845799
+26,96,Medium,Medium,Yes,5,63,Medium,No,1,High,Medium,Private,Positive,2,No,Postgraduate,Near,Male,72.54260148972612,103.27,2026-09-07T14:58:33.056321
+29,61,Medium,High,No,9,61,Medium,Yes,0,Low,Medium,Private,Negative,3,No,High School,Near,Male,65.88088974448245,94.92,2026-09-07T14:58:33.259074
+27,81,Medium,Low,Yes,5,98,Medium,Yes,0,High,Medium,Public,Positive,3,No,High School,Near,Male,69.05645792658598,86.57,2026-09-07T14:58:33.452753
+12,69,High,High,Yes,7,53,Low,Yes,2,Low,High,Public,Neutral,3,No,College,Near,Male,63.67240788543233,96.06,2026-09-07T14:58:33.656104
+23,79,Medium,High,Yes,6,97,Medium,Yes,1,High,Low,Public,Neutral,4,No,High School,Moderate,Male,68.58620588327751,89.17,2026-09-07T14:58:33.852635
