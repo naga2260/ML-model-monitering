@@ -1,0 +1,400 @@
+2026-09-07 11:07:50,990 | INFO | 
+2026-09-07 11:07:50,991 | INFO | ======================================================================
+2026-09-07 11:07:50,991 | INFO |               ML MONITORING PIPELINE
+2026-09-07 11:07:50,991 | INFO | ======================================================================
+2026-09-07 11:07:50,991 | INFO | Pipeline started at: 2026-09-07 11:07:50
+2026-09-07 11:07:50,991 | INFO | Project directory: /home/vardhan9296/Linear_Regression
+2026-09-07 11:07:50,991 | INFO | 
+2026-09-07 11:07:50,991 | INFO | STEP 1/2: Ingesting inference logs
+2026-09-07 11:07:50,991 | INFO | ============================================================
+2026-09-07 11:07:50,991 | INFO | Starting ingest.py
+2026-09-07 11:07:50,991 | INFO | ============================================================
+2026-09-07 11:07:50,991 | ERROR | 
+Traceback (most recent call last):
+  File "/home/vardhan9296/Linear_Regression/monitoring/run_monitoring.py", line 158, in main
+    run_script(
+    ~~~~~~~~~~^
+        INGEST_SCRIPT,
+        ^^^^^^^^^^^^^^
+        "ingest.py"
+        ^^^^^^^^^^^
+    )
+    ^
+  File "/home/vardhan9296/Linear_Regression/monitoring/run_monitoring.py", line 62, in run_script
+    raise FileNotFoundError(
+        f"{script_name} not found: {script_path}"
+    )
+FileNotFoundError: ingest.py not found: /home/vardhan9296/Linear_Regression/monitoring/ingest.py
+2026-09-07 11:07:50,996 | ERROR | ======================================================================
+Traceback (most recent call last):
+  File "/home/vardhan9296/Linear_Regression/monitoring/run_monitoring.py", line 158, in main
+    run_script(
+    ~~~~~~~~~~^
+        INGEST_SCRIPT,
+        ^^^^^^^^^^^^^^
+        "ingest.py"
+        ^^^^^^^^^^^
+    )
+    ^
+  File "/home/vardhan9296/Linear_Regression/monitoring/run_monitoring.py", line 62, in run_script
+    raise FileNotFoundError(
+        f"{script_name} not found: {script_path}"
+    )
+FileNotFoundError: ingest.py not found: /home/vardhan9296/Linear_Regression/monitoring/ingest.py
+2026-09-07 11:07:50,997 | ERROR |        MONITORING PIPELINE FAILED
+Traceback (most recent call last):
+  File "/home/vardhan9296/Linear_Regression/monitoring/run_monitoring.py", line 158, in main
+    run_script(
+    ~~~~~~~~~~^
+        INGEST_SCRIPT,
+        ^^^^^^^^^^^^^^
+        "ingest.py"
+        ^^^^^^^^^^^
+    )
+    ^
+  File "/home/vardhan9296/Linear_Regression/monitoring/run_monitoring.py", line 62, in run_script
+    raise FileNotFoundError(
+        f"{script_name} not found: {script_path}"
+    )
+FileNotFoundError: ingest.py not found: /home/vardhan9296/Linear_Regression/monitoring/ingest.py
+2026-09-07 11:07:50,997 | ERROR | ======================================================================
+Traceback (most recent call last):
+  File "/home/vardhan9296/Linear_Regression/monitoring/run_monitoring.py", line 158, in main
+    run_script(
+    ~~~~~~~~~~^
+        INGEST_SCRIPT,
+        ^^^^^^^^^^^^^^
+        "ingest.py"
+        ^^^^^^^^^^^
+    )
+    ^
+  File "/home/vardhan9296/Linear_Regression/monitoring/run_monitoring.py", line 62, in run_script
+    raise FileNotFoundError(
+        f"{script_name} not found: {script_path}"
+    )
+FileNotFoundError: ingest.py not found: /home/vardhan9296/Linear_Regression/monitoring/ingest.py
+2026-09-07 11:08:25,378 | INFO | 
+2026-09-07 11:08:25,378 | INFO | ======================================================================
+2026-09-07 11:08:25,378 | INFO |               ML MONITORING PIPELINE
+2026-09-07 11:08:25,378 | INFO | ======================================================================
+2026-09-07 11:08:25,378 | INFO | Pipeline started at: 2026-09-07 11:08:25
+2026-09-07 11:08:25,378 | INFO | Project directory: /home/vardhan9296/Linear_Regression
+2026-09-07 11:08:25,378 | INFO | 
+2026-09-07 11:08:25,378 | INFO | STEP 1/2: Ingesting inference logs
+2026-09-07 11:08:25,378 | INFO | ============================================================
+2026-09-07 11:08:25,379 | INFO | Starting ingest.py
+2026-09-07 11:08:25,379 | INFO | ============================================================
+2026-09-07 11:08:25,379 | ERROR | 
+Traceback (most recent call last):
+  File "/home/vardhan9296/Linear_Regression/monitoring/run_monitoring.py", line 158, in main
+    run_script(
+    ~~~~~~~~~~^
+        INGEST_SCRIPT,
+        ^^^^^^^^^^^^^^
+        "ingest.py"
+        ^^^^^^^^^^^
+    )
+    ^
+  File "/home/vardhan9296/Linear_Regression/monitoring/run_monitoring.py", line 62, in run_script
+    raise FileNotFoundError(
+        f"{script_name} not found: {script_path}"
+    )
+FileNotFoundError: ingest.py not found: /home/vardhan9296/Linear_Regression/monitoring/ingest.py
+2026-09-07 11:08:25,385 | ERROR | ======================================================================
+Traceback (most recent call last):
+  File "/home/vardhan9296/Linear_Regression/monitoring/run_monitoring.py", line 158, in main
+    run_script(
+    ~~~~~~~~~~^
+        INGEST_SCRIPT,
+        ^^^^^^^^^^^^^^
+        "ingest.py"
+        ^^^^^^^^^^^
+    )
+    ^
+  File "/home/vardhan9296/Linear_Regression/monitoring/run_monitoring.py", line 62, in run_script
+    raise FileNotFoundError(
+        f"{script_name} not found: {script_path}"
+    )
+FileNotFoundError: ingest.py not found: /home/vardhan9296/Linear_Regression/monitoring/ingest.py
+2026-09-07 11:08:25,385 | ERROR |        MONITORING PIPELINE FAILED
+Traceback (most recent call last):
+  File "/home/vardhan9296/Linear_Regression/monitoring/run_monitoring.py", line 158, in main
+    run_script(
+    ~~~~~~~~~~^
+        INGEST_SCRIPT,
+        ^^^^^^^^^^^^^^
+        "ingest.py"
+        ^^^^^^^^^^^
+    )
+    ^
+  File "/home/vardhan9296/Linear_Regression/monitoring/run_monitoring.py", line 62, in run_script
+    raise FileNotFoundError(
+        f"{script_name} not found: {script_path}"
+    )
+FileNotFoundError: ingest.py not found: /home/vardhan9296/Linear_Regression/monitoring/ingest.py
+2026-09-07 11:08:25,386 | ERROR | ======================================================================
+Traceback (most recent call last):
+  File "/home/vardhan9296/Linear_Regression/monitoring/run_monitoring.py", line 158, in main
+    run_script(
+    ~~~~~~~~~~^
+        INGEST_SCRIPT,
+        ^^^^^^^^^^^^^^
+        "ingest.py"
+        ^^^^^^^^^^^
+    )
+    ^
+  File "/home/vardhan9296/Linear_Regression/monitoring/run_monitoring.py", line 62, in run_script
+    raise FileNotFoundError(
+        f"{script_name} not found: {script_path}"
+    )
+FileNotFoundError: ingest.py not found: /home/vardhan9296/Linear_Regression/monitoring/ingest.py
+2026-09-07 11:10:30,573 | INFO | 
+2026-09-07 11:10:30,573 | INFO | ======================================================================
+2026-09-07 11:10:30,573 | INFO |               ML MONITORING PIPELINE
+2026-09-07 11:10:30,574 | INFO | ======================================================================
+2026-09-07 11:10:30,574 | INFO | Pipeline started at: 2026-09-07 11:10:30
+2026-09-07 11:10:30,574 | INFO | Project directory: /home/vardhan9296/Linear_Regression
+2026-09-07 11:10:30,574 | INFO | 
+2026-09-07 11:10:30,574 | INFO | STEP 1/2: Ingesting inference logs
+2026-09-07 11:10:30,574 | INFO | ============================================================
+2026-09-07 11:10:30,574 | INFO | Starting ingest.py
+2026-09-07 11:10:30,574 | INFO | ============================================================
+2026-09-07 11:10:30,574 | ERROR | 
+Traceback (most recent call last):
+  File "/home/vardhan9296/Linear_Regression/monitoring/run_monitoring.py", line 158, in main
+    run_script(
+    ~~~~~~~~~~^
+        INGEST_SCRIPT,
+        ^^^^^^^^^^^^^^
+        "ingest.py"
+        ^^^^^^^^^^^
+    )
+    ^
+  File "/home/vardhan9296/Linear_Regression/monitoring/run_monitoring.py", line 62, in run_script
+    raise FileNotFoundError(
+        f"{script_name} not found: {script_path}"
+    )
+FileNotFoundError: ingest.py not found: /home/vardhan9296/Linear_Regression/monitoring/ingest.py
+2026-09-07 11:10:30,581 | ERROR | ======================================================================
+Traceback (most recent call last):
+  File "/home/vardhan9296/Linear_Regression/monitoring/run_monitoring.py", line 158, in main
+    run_script(
+    ~~~~~~~~~~^
+        INGEST_SCRIPT,
+        ^^^^^^^^^^^^^^
+        "ingest.py"
+        ^^^^^^^^^^^
+    )
+    ^
+  File "/home/vardhan9296/Linear_Regression/monitoring/run_monitoring.py", line 62, in run_script
+    raise FileNotFoundError(
+        f"{script_name} not found: {script_path}"
+    )
+FileNotFoundError: ingest.py not found: /home/vardhan9296/Linear_Regression/monitoring/ingest.py
+2026-09-07 11:10:30,581 | ERROR |        MONITORING PIPELINE FAILED
+Traceback (most recent call last):
+  File "/home/vardhan9296/Linear_Regression/monitoring/run_monitoring.py", line 158, in main
+    run_script(
+    ~~~~~~~~~~^
+        INGEST_SCRIPT,
+        ^^^^^^^^^^^^^^
+        "ingest.py"
+        ^^^^^^^^^^^
+    )
+    ^
+  File "/home/vardhan9296/Linear_Regression/monitoring/run_monitoring.py", line 62, in run_script
+    raise FileNotFoundError(
+        f"{script_name} not found: {script_path}"
+    )
+FileNotFoundError: ingest.py not found: /home/vardhan9296/Linear_Regression/monitoring/ingest.py
+2026-09-07 11:10:30,582 | ERROR | ======================================================================
+Traceback (most recent call last):
+  File "/home/vardhan9296/Linear_Regression/monitoring/run_monitoring.py", line 158, in main
+    run_script(
+    ~~~~~~~~~~^
+        INGEST_SCRIPT,
+        ^^^^^^^^^^^^^^
+        "ingest.py"
+        ^^^^^^^^^^^
+    )
+    ^
+  File "/home/vardhan9296/Linear_Regression/monitoring/run_monitoring.py", line 62, in run_script
+    raise FileNotFoundError(
+        f"{script_name} not found: {script_path}"
+    )
+FileNotFoundError: ingest.py not found: /home/vardhan9296/Linear_Regression/monitoring/ingest.py
+2026-09-07 11:11:25,598 | INFO | 
+2026-09-07 11:11:25,598 | INFO | ======================================================================
+2026-09-07 11:11:25,598 | INFO |               ML MONITORING PIPELINE
+2026-09-07 11:11:25,598 | INFO | ======================================================================
+2026-09-07 11:11:25,598 | INFO | Pipeline started at: 2026-09-07 11:11:25
+2026-09-07 11:11:25,598 | INFO | Project directory: /home/vardhan9296/Linear_Regression
+2026-09-07 11:11:25,598 | INFO | 
+2026-09-07 11:11:25,599 | INFO | STEP 1/2: Ingesting inference logs
+2026-09-07 11:11:25,599 | INFO | ============================================================
+2026-09-07 11:11:25,599 | INFO | Starting ingest.py
+2026-09-07 11:11:25,599 | INFO | ============================================================
+2026-09-07 11:11:25,599 | ERROR | 
+Traceback (most recent call last):
+  File "/home/vardhan9296/Linear_Regression/monitoring/run_monitoring.py", line 158, in main
+    run_script(
+    ~~~~~~~~~~^
+        INGEST_SCRIPT,
+        ^^^^^^^^^^^^^^
+        "ingest.py"
+        ^^^^^^^^^^^
+    )
+    ^
+  File "/home/vardhan9296/Linear_Regression/monitoring/run_monitoring.py", line 62, in run_script
+    raise FileNotFoundError(
+        f"{script_name} not found: {script_path}"
+    )
+FileNotFoundError: ingest.py not found: /home/vardhan9296/Linear_Regression/monitoring/ingest.py
+2026-09-07 11:11:25,604 | ERROR | ======================================================================
+Traceback (most recent call last):
+  File "/home/vardhan9296/Linear_Regression/monitoring/run_monitoring.py", line 158, in main
+    run_script(
+    ~~~~~~~~~~^
+        INGEST_SCRIPT,
+        ^^^^^^^^^^^^^^
+        "ingest.py"
+        ^^^^^^^^^^^
+    )
+    ^
+  File "/home/vardhan9296/Linear_Regression/monitoring/run_monitoring.py", line 62, in run_script
+    raise FileNotFoundError(
+        f"{script_name} not found: {script_path}"
+    )
+FileNotFoundError: ingest.py not found: /home/vardhan9296/Linear_Regression/monitoring/ingest.py
+2026-09-07 11:11:25,605 | ERROR |        MONITORING PIPELINE FAILED
+Traceback (most recent call last):
+  File "/home/vardhan9296/Linear_Regression/monitoring/run_monitoring.py", line 158, in main
+    run_script(
+    ~~~~~~~~~~^
+        INGEST_SCRIPT,
+        ^^^^^^^^^^^^^^
+        "ingest.py"
+        ^^^^^^^^^^^
+    )
+    ^
+  File "/home/vardhan9296/Linear_Regression/monitoring/run_monitoring.py", line 62, in run_script
+    raise FileNotFoundError(
+        f"{script_name} not found: {script_path}"
+    )
+FileNotFoundError: ingest.py not found: /home/vardhan9296/Linear_Regression/monitoring/ingest.py
+2026-09-07 11:11:25,605 | ERROR | ======================================================================
+Traceback (most recent call last):
+  File "/home/vardhan9296/Linear_Regression/monitoring/run_monitoring.py", line 158, in main
+    run_script(
+    ~~~~~~~~~~^
+        INGEST_SCRIPT,
+        ^^^^^^^^^^^^^^
+        "ingest.py"
+        ^^^^^^^^^^^
+    )
+    ^
+  File "/home/vardhan9296/Linear_Regression/monitoring/run_monitoring.py", line 62, in run_script
+    raise FileNotFoundError(
+        f"{script_name} not found: {script_path}"
+    )
+FileNotFoundError: ingest.py not found: /home/vardhan9296/Linear_Regression/monitoring/ingest.py
+2026-09-07 11:11:42,034 | INFO | 
+2026-09-07 11:11:42,034 | INFO | ======================================================================
+2026-09-07 11:11:42,034 | INFO |               ML MONITORING PIPELINE
+2026-09-07 11:11:42,034 | INFO | ======================================================================
+2026-09-07 11:11:42,034 | INFO | Pipeline started at: 2026-09-07 11:11:42
+2026-09-07 11:11:42,034 | INFO | Project directory: /home/vardhan9296/Linear_Regression
+2026-09-07 11:11:42,034 | INFO | 
+2026-09-07 11:11:42,034 | INFO | STEP 1/2: Ingesting inference logs
+2026-09-07 11:11:42,034 | INFO | ============================================================
+2026-09-07 11:11:42,035 | INFO | Starting ingest_logs.py
+2026-09-07 11:11:42,035 | INFO | ============================================================
+2026-09-07 11:11:42,738 | INFO | ingest_logs.py output:
+Reading inference logs...
+Found 1638 prediction records.
+Production data saved to: /home/vardhan9296/Linear_Regression/data/production_data.csv
+Production dataset shape: (1638, 22)
+
+Production Data:
+   Hours_Studied  Attendance  ... latency_ms                   timestamp
+0             25          85  ...     107.95                         NaN
+1             25          85  ...      92.08                         NaN
+2             25          90  ...      93.50                         NaN
+3             25          65  ...     137.59  2026-09-01T11:58:07.584505
+4             20          65  ...     101.61  2026-09-01T11:59:07.075322
+
+[5 rows x 22 columns]
+2026-09-07 11:11:42,739 | INFO | ingest_logs.py completed successfully.
+2026-09-07 11:11:42,739 | INFO | 
+2026-09-07 11:11:42,739 | INFO | STEP 2/2: Generating drift reports
+2026-09-07 11:11:42,739 | INFO | ============================================================
+2026-09-07 11:11:42,739 | INFO | Starting monitor_drift.py
+2026-09-07 11:11:42,739 | INFO | ============================================================
+2026-09-07 11:11:48,764 | INFO | monitor_drift.py output:
+==========================================
+          ML MONITORING PIPELINE
+==========================================
+
+Loading datasets...
+Reference dataset: (6607, 19)
+Production dataset: (1638, 22)
+
+Comparing 19 input features...
+
+------------------------------------------
+Generating DATA DRIFT report
+------------------------------------------
+Data drift report created:
+/home/vardhan9296/Linear_Regression/reports/data_drift_report.html
+
+------------------------------------------
+Generating PRODUCTION DRIFT report
+------------------------------------------
+Reference predictions: (6607, 1)
+Production predictions: (1638, 1)
+
+Reference prediction statistics:
+count    6607.000000
+mean       67.235659
+std         3.890456
+min        55.000000
+25%        65.000000
+50%        67.000000
+75%        69.000000
+max       101.000000
+Name: prediction, dtype: float64
+
+Production prediction statistics:
+count    1638.000000
+mean       67.399055
+std         3.110504
+min        58.830547
+25%        65.177902
+50%        67.205241
+75%        69.647594
+max        78.378007
+Name: prediction, dtype: float64
+
+Production drift report created:
+/home/vardhan9296/Linear_Regression/reports/production_drift_report.html
+
+==========================================
+       MONITORING COMPLETED
+==========================================
+
+Reports generated:
+
+1. Data drift:
+   /home/vardhan9296/Linear_Regression/reports/data_drift_report.html
+
+2. Production drift:
+   /home/vardhan9296/Linear_Regression/reports/production_drift_report.html
+2026-09-07 11:11:48,765 | INFO | monitor_drift.py completed successfully.
+2026-09-07 11:11:48,765 | INFO | 
+2026-09-07 11:11:48,765 | INFO | ======================================================================
+2026-09-07 11:11:48,765 | INFO |           MONITORING PIPELINE COMPLETED
+2026-09-07 11:11:48,765 | INFO | ======================================================================
+2026-09-07 11:11:48,765 | INFO | Completed at: 2026-09-07 11:11:48
+2026-09-07 11:11:48,766 | INFO | Total duration: 0:00:06.730977
+2026-09-07 11:11:48,766 | INFO | Data drift report: /home/vardhan9296/Linear_Regression/reports/data_drift_report.html
+2026-09-07 11:11:48,766 | INFO | Prediction drift report: /home/vardhan9296/Linear_Regression/reports/production_drift_report.html
