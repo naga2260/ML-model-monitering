@@ -194,3 +194,383 @@ Reports generated:
 2026-09-07 15:00:07,506 | INFO | Total duration: 0:00:06.220896
 2026-09-07 15:00:07,506 | INFO | Data drift report: /home/vardhan9296/Linear_Regression/reports/data_drift_report.html
 2026-09-07 15:00:07,506 | INFO | Prediction drift report: /home/vardhan9296/Linear_Regression/reports/production_drift_report.html
+2026-09-07 16:00:01,731 | INFO | 
+2026-09-07 16:00:01,731 | INFO | ======================================================================
+2026-09-07 16:00:01,731 | INFO |               ML MONITORING PIPELINE
+2026-09-07 16:00:01,731 | INFO | ======================================================================
+2026-09-07 16:00:01,731 | INFO | Pipeline started at: 2026-09-07 16:00:01
+2026-09-07 16:00:01,731 | INFO | Project directory: /home/vardhan9296/Linear_Regression
+2026-09-07 16:00:01,731 | INFO | 
+2026-09-07 16:00:01,731 | INFO | STEP 1/2: Ingesting inference logs
+2026-09-07 16:00:01,731 | INFO | ============================================================
+2026-09-07 16:00:01,731 | INFO | Starting ingest_logs.py
+2026-09-07 16:00:01,731 | INFO | ============================================================
+2026-09-07 16:00:02,242 | WARNING | ingest_logs.py stderr:
+2026-09-07 16:00:02,142 | INFO | ============================================================
+2026-09-07 16:00:02,143 | INFO | Starting incremental log ingestion
+2026-09-07 16:00:02,143 | INFO | ============================================================
+2026-09-07 16:00:02,143 | INFO | Last processed log position: 1519272
+2026-09-07 16:00:02,143 | INFO | New prediction records found: 0
+2026-09-07 16:00:02,143 | INFO | No new prediction records found.
+2026-09-07 16:00:02,143 | INFO | Updated log position: 1519272
+2026-09-07 16:00:02,143 | INFO | Incremental ingestion completed successfully.
+2026-09-07 16:00:02,143 | INFO | ============================================================
+2026-09-07 16:00:02,242 | INFO | ingest_logs.py completed successfully.
+2026-09-07 16:00:02,242 | INFO | 
+2026-09-07 16:00:02,242 | INFO | STEP 2/2: Generating drift reports
+2026-09-07 16:00:02,242 | INFO | ============================================================
+2026-09-07 16:00:02,242 | INFO | Starting monitor_drift.py
+2026-09-07 16:00:02,242 | INFO | ============================================================
+2026-09-07 16:00:08,360 | INFO | monitor_drift.py output:
+==========================================
+          ML MONITORING PIPELINE
+==========================================
+
+Loading datasets...
+Reference dataset: (6607, 19)
+Production dataset: (2118, 22)
+
+Comparing 19 input features...
+
+------------------------------------------
+Generating DATA DRIFT report
+------------------------------------------
+Data drift report created:
+/home/vardhan9296/Linear_Regression/reports/data_drift_report.html
+
+------------------------------------------
+Generating PRODUCTION DRIFT report
+------------------------------------------
+Reference predictions: (6607, 1)
+Production predictions: (2118, 1)
+
+Reference prediction statistics:
+count    6607.000000
+mean       67.235659
+std         3.890456
+min        55.000000
+25%        65.000000
+50%        67.000000
+75%        69.000000
+max       101.000000
+Name: prediction, dtype: float64
+
+Production prediction statistics:
+count    2118.000000
+mean       67.397260
+std         3.109148
+min        58.830547
+25%        65.178253
+50%        67.203423
+75%        69.640188
+max        78.378007
+Name: prediction, dtype: float64
+
+Production drift report created:
+/home/vardhan9296/Linear_Regression/reports/production_drift_report.html
+
+==========================================
+       MONITORING COMPLETED
+==========================================
+
+Reports generated:
+
+1. Data drift:
+   /home/vardhan9296/Linear_Regression/reports/data_drift_report.html
+
+2. Production drift:
+   /home/vardhan9296/Linear_Regression/reports/production_drift_report.html
+2026-09-07 16:00:08,360 | INFO | monitor_drift.py completed successfully.
+2026-09-07 16:00:08,360 | INFO | 
+2026-09-07 16:00:08,360 | INFO | ======================================================================
+2026-09-07 16:00:08,360 | INFO |           MONITORING PIPELINE COMPLETED
+2026-09-07 16:00:08,360 | INFO | ======================================================================
+2026-09-07 16:00:08,360 | INFO | Completed at: 2026-09-07 16:00:08
+2026-09-07 16:00:08,360 | INFO | Total duration: 0:00:06.629569
+2026-09-07 16:00:08,361 | INFO | Data drift report: /home/vardhan9296/Linear_Regression/reports/data_drift_report.html
+2026-09-07 16:00:08,361 | INFO | Prediction drift report: /home/vardhan9296/Linear_Regression/reports/production_drift_report.html
+2026-09-08 10:00:01,863 | INFO | 
+2026-09-08 10:00:01,864 | INFO | ======================================================================
+2026-09-08 10:00:01,864 | INFO |               ML MONITORING PIPELINE
+2026-09-08 10:00:01,864 | INFO | ======================================================================
+2026-09-08 10:00:01,864 | INFO | Pipeline started at: 2026-09-08 10:00:01
+2026-09-08 10:00:01,864 | INFO | Project directory: /home/vardhan9296/Linear_Regression
+2026-09-08 10:00:01,864 | INFO | 
+2026-09-08 10:00:01,864 | INFO | STEP 1/2: Ingesting inference logs
+2026-09-08 10:00:01,864 | INFO | ============================================================
+2026-09-08 10:00:01,864 | INFO | Starting ingest_logs.py
+2026-09-08 10:00:01,864 | INFO | ============================================================
+2026-09-08 10:00:02,558 | WARNING | ingest_logs.py stderr:
+2026-09-08 10:00:02,461 | INFO | ============================================================
+2026-09-08 10:00:02,462 | INFO | Starting incremental log ingestion
+2026-09-08 10:00:02,462 | INFO | ============================================================
+2026-09-08 10:00:02,462 | INFO | Last processed log position: 1519272
+2026-09-08 10:00:02,462 | INFO | New prediction records found: 0
+2026-09-08 10:00:02,462 | INFO | No new prediction records found.
+2026-09-08 10:00:02,462 | INFO | Updated log position: 1519272
+2026-09-08 10:00:02,462 | INFO | Incremental ingestion completed successfully.
+2026-09-08 10:00:02,463 | INFO | ============================================================
+2026-09-08 10:00:02,558 | INFO | ingest_logs.py completed successfully.
+2026-09-08 10:00:02,558 | INFO | 
+2026-09-08 10:00:02,558 | INFO | STEP 2/2: Generating drift reports
+2026-09-08 10:00:02,558 | INFO | ============================================================
+2026-09-08 10:00:02,558 | INFO | Starting monitor_drift.py
+2026-09-08 10:00:02,558 | INFO | ============================================================
+2026-09-08 10:00:08,780 | INFO | monitor_drift.py output:
+==========================================
+          ML MONITORING PIPELINE
+==========================================
+
+Loading datasets...
+Reference dataset: (6607, 19)
+Production dataset: (2118, 22)
+
+Comparing 19 input features...
+
+------------------------------------------
+Generating DATA DRIFT report
+------------------------------------------
+Data drift report created:
+/home/vardhan9296/Linear_Regression/reports/data_drift_report.html
+
+------------------------------------------
+Generating PRODUCTION DRIFT report
+------------------------------------------
+Reference predictions: (6607, 1)
+Production predictions: (2118, 1)
+
+Reference prediction statistics:
+count    6607.000000
+mean       67.235659
+std         3.890456
+min        55.000000
+25%        65.000000
+50%        67.000000
+75%        69.000000
+max       101.000000
+Name: prediction, dtype: float64
+
+Production prediction statistics:
+count    2118.000000
+mean       67.397260
+std         3.109148
+min        58.830547
+25%        65.178253
+50%        67.203423
+75%        69.640188
+max        78.378007
+Name: prediction, dtype: float64
+
+Production drift report created:
+/home/vardhan9296/Linear_Regression/reports/production_drift_report.html
+
+==========================================
+       MONITORING COMPLETED
+==========================================
+
+Reports generated:
+
+1. Data drift:
+   /home/vardhan9296/Linear_Regression/reports/data_drift_report.html
+
+2. Production drift:
+   /home/vardhan9296/Linear_Regression/reports/production_drift_report.html
+2026-09-08 10:00:08,780 | INFO | monitor_drift.py completed successfully.
+2026-09-08 10:00:08,780 | INFO | 
+2026-09-08 10:00:08,780 | INFO | ======================================================================
+2026-09-08 10:00:08,780 | INFO |           MONITORING PIPELINE COMPLETED
+2026-09-08 10:00:08,780 | INFO | ======================================================================
+2026-09-08 10:00:08,781 | INFO | Completed at: 2026-09-08 10:00:08
+2026-09-08 10:00:08,781 | INFO | Total duration: 0:00:06.917310
+2026-09-08 10:00:08,781 | INFO | Data drift report: /home/vardhan9296/Linear_Regression/reports/data_drift_report.html
+2026-09-08 10:00:08,781 | INFO | Prediction drift report: /home/vardhan9296/Linear_Regression/reports/production_drift_report.html
+2026-09-08 11:00:01,920 | INFO | 
+2026-09-08 11:00:01,920 | INFO | ======================================================================
+2026-09-08 11:00:01,920 | INFO |               ML MONITORING PIPELINE
+2026-09-08 11:00:01,920 | INFO | ======================================================================
+2026-09-08 11:00:01,920 | INFO | Pipeline started at: 2026-09-08 11:00:01
+2026-09-08 11:00:01,921 | INFO | Project directory: /home/vardhan9296/Linear_Regression
+2026-09-08 11:00:01,921 | INFO | 
+2026-09-08 11:00:01,921 | INFO | STEP 1/2: Ingesting inference logs
+2026-09-08 11:00:01,921 | INFO | ============================================================
+2026-09-08 11:00:01,921 | INFO | Starting ingest_logs.py
+2026-09-08 11:00:01,921 | INFO | ============================================================
+2026-09-08 11:00:02,556 | WARNING | ingest_logs.py stderr:
+2026-09-08 11:00:02,456 | INFO | ============================================================
+2026-09-08 11:00:02,456 | INFO | Starting incremental log ingestion
+2026-09-08 11:00:02,456 | INFO | ============================================================
+2026-09-08 11:00:02,456 | INFO | Last processed log position: 1519272
+2026-09-08 11:00:02,456 | INFO | New prediction records found: 0
+2026-09-08 11:00:02,456 | INFO | No new prediction records found.
+2026-09-08 11:00:02,457 | INFO | Updated log position: 1519272
+2026-09-08 11:00:02,457 | INFO | Incremental ingestion completed successfully.
+2026-09-08 11:00:02,457 | INFO | ============================================================
+2026-09-08 11:00:02,556 | INFO | ingest_logs.py completed successfully.
+2026-09-08 11:00:02,556 | INFO | 
+2026-09-08 11:00:02,556 | INFO | STEP 2/2: Generating drift reports
+2026-09-08 11:00:02,557 | INFO | ============================================================
+2026-09-08 11:00:02,557 | INFO | Starting monitor_drift.py
+2026-09-08 11:00:02,557 | INFO | ============================================================
+2026-09-08 11:00:08,207 | INFO | monitor_drift.py output:
+==========================================
+          ML MONITORING PIPELINE
+==========================================
+
+Loading datasets...
+Reference dataset: (6607, 19)
+Production dataset: (2118, 22)
+
+Comparing 19 input features...
+
+------------------------------------------
+Generating DATA DRIFT report
+------------------------------------------
+Data drift report created:
+/home/vardhan9296/Linear_Regression/reports/data_drift_report.html
+
+------------------------------------------
+Generating PRODUCTION DRIFT report
+------------------------------------------
+Reference predictions: (6607, 1)
+Production predictions: (2118, 1)
+
+Reference prediction statistics:
+count    6607.000000
+mean       67.235659
+std         3.890456
+min        55.000000
+25%        65.000000
+50%        67.000000
+75%        69.000000
+max       101.000000
+Name: prediction, dtype: float64
+
+Production prediction statistics:
+count    2118.000000
+mean       67.397260
+std         3.109148
+min        58.830547
+25%        65.178253
+50%        67.203423
+75%        69.640188
+max        78.378007
+Name: prediction, dtype: float64
+
+Production drift report created:
+/home/vardhan9296/Linear_Regression/reports/production_drift_report.html
+
+==========================================
+       MONITORING COMPLETED
+==========================================
+
+Reports generated:
+
+1. Data drift:
+   /home/vardhan9296/Linear_Regression/reports/data_drift_report.html
+
+2. Production drift:
+   /home/vardhan9296/Linear_Regression/reports/production_drift_report.html
+2026-09-08 11:00:08,207 | INFO | monitor_drift.py completed successfully.
+2026-09-08 11:00:08,208 | INFO | 
+2026-09-08 11:00:08,208 | INFO | ======================================================================
+2026-09-08 11:00:08,208 | INFO |           MONITORING PIPELINE COMPLETED
+2026-09-08 11:00:08,208 | INFO | ======================================================================
+2026-09-08 11:00:08,208 | INFO | Completed at: 2026-09-08 11:00:08
+2026-09-08 11:00:08,208 | INFO | Total duration: 0:00:06.287341
+2026-09-08 11:00:08,208 | INFO | Data drift report: /home/vardhan9296/Linear_Regression/reports/data_drift_report.html
+2026-09-08 11:00:08,208 | INFO | Prediction drift report: /home/vardhan9296/Linear_Regression/reports/production_drift_report.html
+2026-09-08 12:00:01,438 | INFO | 
+2026-09-08 12:00:01,438 | INFO | ======================================================================
+2026-09-08 12:00:01,439 | INFO |               ML MONITORING PIPELINE
+2026-09-08 12:00:01,439 | INFO | ======================================================================
+2026-09-08 12:00:01,439 | INFO | Pipeline started at: 2026-09-08 12:00:01
+2026-09-08 12:00:01,439 | INFO | Project directory: /home/vardhan9296/Linear_Regression
+2026-09-08 12:00:01,439 | INFO | 
+2026-09-08 12:00:01,439 | INFO | STEP 1/2: Ingesting inference logs
+2026-09-08 12:00:01,439 | INFO | ============================================================
+2026-09-08 12:00:01,439 | INFO | Starting ingest_logs.py
+2026-09-08 12:00:01,439 | INFO | ============================================================
+2026-09-08 12:00:01,959 | WARNING | ingest_logs.py stderr:
+2026-09-08 12:00:01,865 | INFO | ============================================================
+2026-09-08 12:00:01,866 | INFO | Starting incremental log ingestion
+2026-09-08 12:00:01,866 | INFO | ============================================================
+2026-09-08 12:00:01,866 | INFO | Last processed log position: 1519272
+2026-09-08 12:00:01,866 | INFO | New prediction records found: 0
+2026-09-08 12:00:01,866 | INFO | No new prediction records found.
+2026-09-08 12:00:01,866 | INFO | Updated log position: 1519272
+2026-09-08 12:00:01,866 | INFO | Incremental ingestion completed successfully.
+2026-09-08 12:00:01,866 | INFO | ============================================================
+2026-09-08 12:00:01,959 | INFO | ingest_logs.py completed successfully.
+2026-09-08 12:00:01,959 | INFO | 
+2026-09-08 12:00:01,959 | INFO | STEP 2/2: Generating drift reports
+2026-09-08 12:00:01,960 | INFO | ============================================================
+2026-09-08 12:00:01,960 | INFO | Starting monitor_drift.py
+2026-09-08 12:00:01,960 | INFO | ============================================================
+2026-09-08 12:00:07,439 | INFO | monitor_drift.py output:
+==========================================
+          ML MONITORING PIPELINE
+==========================================
+
+Loading datasets...
+Reference dataset: (6607, 19)
+Production dataset: (2118, 22)
+
+Comparing 19 input features...
+
+------------------------------------------
+Generating DATA DRIFT report
+------------------------------------------
+Data drift report created:
+/home/vardhan9296/Linear_Regression/reports/data_drift_report.html
+
+------------------------------------------
+Generating PRODUCTION DRIFT report
+------------------------------------------
+Reference predictions: (6607, 1)
+Production predictions: (2118, 1)
+
+Reference prediction statistics:
+count    6607.000000
+mean       67.235659
+std         3.890456
+min        55.000000
+25%        65.000000
+50%        67.000000
+75%        69.000000
+max       101.000000
+Name: prediction, dtype: float64
+
+Production prediction statistics:
+count    2118.000000
+mean       67.397260
+std         3.109148
+min        58.830547
+25%        65.178253
+50%        67.203423
+75%        69.640188
+max        78.378007
+Name: prediction, dtype: float64
+
+Production drift report created:
+/home/vardhan9296/Linear_Regression/reports/production_drift_report.html
+
+==========================================
+       MONITORING COMPLETED
+==========================================
+
+Reports generated:
+
+1. Data drift:
+   /home/vardhan9296/Linear_Regression/reports/data_drift_report.html
+
+2. Production drift:
+   /home/vardhan9296/Linear_Regression/reports/production_drift_report.html
+2026-09-08 12:00:07,439 | INFO | monitor_drift.py completed successfully.
+2026-09-08 12:00:07,439 | INFO | 
+2026-09-08 12:00:07,439 | INFO | ======================================================================
+2026-09-08 12:00:07,439 | INFO |           MONITORING PIPELINE COMPLETED
+2026-09-08 12:00:07,439 | INFO | ======================================================================
+2026-09-08 12:00:07,439 | INFO | Completed at: 2026-09-08 12:00:07
+2026-09-08 12:00:07,439 | INFO | Total duration: 0:00:06.000563
+2026-09-08 12:00:07,439 | INFO | Data drift report: /home/vardhan9296/Linear_Regression/reports/data_drift_report.html
+2026-09-08 12:00:07,439 | INFO | Prediction drift report: /home/vardhan9296/Linear_Regression/reports/production_drift_report.html
