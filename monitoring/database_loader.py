@@ -1,38 +1,33 @@
 import sys
+from datetime import datetime
 from pathlib import Path
 
 import pandas as pd
 from sqlalchemy import text
-
-
-# ============================================================
-# Add project root to Python path
-# ============================================================
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 if str(BASE_DIR) not in sys.path:
     sys.path.insert(0, str(BASE_DIR))
 
-
-# ============================================================
-# Import database engine
-# ============================================================
-
 from backend.database import engine
 
 
-# ============================================================
-# Load production data from PostgreSQL
-# ============================================================
-
-def load_production_data() -> pd.DataFrame:
+def load_production_data(
+    start_time: datetime | None = None,
+    end_time: datetime | None = None,
+) -> pd.DataFrame:
     """
-    Load inference records from PostgreSQL and convert
-    them into a DataFrame suitable for monitoring.
+    Load successful production inference records
+    from PostgreSQL.
+
+    If start_time and end_time are provided,
+    only records inside that monitoring window
+    are returned.
     """
 
-    query = text("""
+    query = text(
+        """
         SELECT
             id,
             timestamp,
@@ -42,26 +37,33 @@ def load_production_data() -> pd.DataFrame:
             status
         FROM inference_logs
         WHERE status = 'success'
+          AND (
+                :start_time IS NULL
+                OR timestamp >= :start_time
+              )
+          AND (
+                :end_time IS NULL
+                OR timestamp < :end_time
+              )
         ORDER BY id ASC
-    """)
+        """
+    )
 
     with engine.connect() as connection:
 
-        result = connection.execute(query)
+        result = connection.execute(
+            query,
+            {
+                "start_time": start_time,
+                "end_time": end_time,
+            },
+        )
 
         rows = result.mappings().all()
 
     if not rows:
-
-        print(
-            "No inference records found in PostgreSQL."
-        )
-
+        print("No inference records found for the monitoring window.")
         return pd.DataFrame()
-
-    # --------------------------------------------------------
-    # Convert database rows to DataFrame
-    # --------------------------------------------------------
 
     records = []
 
@@ -71,26 +73,17 @@ def load_production_data() -> pd.DataFrame:
 
         record = {
             **input_features,
-
             "prediction": row["prediction"],
-
             "latency_ms": row["latency_ms"],
-
             "timestamp": row["timestamp"],
-
             "id": row["id"],
+            "status": row["status"],
         }
 
         records.append(record)
 
-    df = pd.DataFrame(records)
+    return pd.DataFrame(records)
 
-    return df
-
-
-# ============================================================
-# Test
-# ============================================================
 
 if __name__ == "__main__":
 
@@ -100,9 +93,7 @@ if __name__ == "__main__":
 
     df = load_production_data()
 
-    print(
-        f"\nProduction dataset shape: {df.shape}"
-    )
+    print(f"\nProduction dataset shape: {df.shape}")
 
     if not df.empty:
 

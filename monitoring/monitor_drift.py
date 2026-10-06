@@ -1,3 +1,4 @@
+from datetime import datetime, timedelta
 from pathlib import Path
 import sys
 
@@ -19,11 +20,16 @@ if str(BASE_DIR) not in sys.path:
 
 
 # --------------------------------------------------
-# Backend Imports (Placed after sys.path setup)
+# Backend and Alerting Imports
 # --------------------------------------------------
 
 from backend.database import SessionLocal
 from backend.models import MonitoringMetric
+from alerting import (
+    build_alert_message,
+    build_recovery_message,
+    send_telegram_alert,
+)
 
 
 # --------------------------------------------------
@@ -58,10 +64,13 @@ PRODUCTION_DRIFT_REPORT_FILE = (
 # Load data
 # ==================================================
 
-def load_data():
+def load_data(
+    start_time: datetime,
+    end_time: datetime,
+):
     """
     Load reference data from CSV and production
-    inference data from PostgreSQL.
+    inference data from PostgreSQL for a specific time window.
 
     PostgreSQL is the single source of production
     data for both monitoring reports.
@@ -76,14 +85,11 @@ def load_data():
         REFERENCE_FILE
     )
 
-    # Production data comes from PostgreSQL
-    production_df = load_production_data()
-
-    if production_df.empty:
-        raise ValueError(
-            "No production inference data found "
-            "in PostgreSQL."
-        )
+    # Production data comes from PostgreSQL within the window
+    production_df = load_production_data(
+        start_time=start_time,
+        end_time=end_time,
+    )
 
     return reference_df, production_df
 
@@ -630,6 +636,134 @@ def evaluate_monitoring_status(
 
 
 # ==================================================
+# Alert Handling & Previous Status Functions
+# ==================================================
+
+def get_previous_monitoring_status():
+    """
+    Get the most recent monitoring status from PostgreSQL.
+    """
+
+    db = SessionLocal()
+
+    try:
+
+        previous_record = (
+            db.query(MonitoringMetric)
+            .order_by(
+                MonitoringMetric.id.desc()
+            )
+            .first()
+        )
+
+        if previous_record is None:
+            return None
+
+        return previous_record.status
+
+    finally:
+        db.close()
+
+
+def handle_alerts(
+    monitoring_metrics,
+    data_drift_metrics,
+    prediction_drift_metrics,
+    status_metrics,
+):
+    """
+    Send Telegram notifications when the monitoring
+    status changes or an alert condition occurs.
+    """
+
+    current_status = status_metrics["status"]
+
+    previous_status = (
+        get_previous_monitoring_status()
+    )
+
+    reasons = (
+        status_metrics["alerts"]
+        + status_metrics["warnings"]
+    )
+
+    # ----------------------------------------------
+    # ALERT
+    # ----------------------------------------------
+
+    if current_status == "ALERT":
+
+        # Don't repeatedly notify for the same
+        # continuing alert.
+        if previous_status != "ALERT":
+
+            message = build_alert_message(
+                status=current_status,
+                monitoring_metrics=monitoring_metrics,
+                data_drift_metrics=data_drift_metrics,
+                prediction_drift_metrics=
+                    prediction_drift_metrics,
+                reasons=reasons,
+            )
+
+            send_telegram_alert(message)
+
+            print(
+                "\n🚨 Telegram alert sent."
+            )
+
+        else:
+
+            print(
+                "\nALERT still active. "
+                "Telegram notification skipped."
+            )
+
+    # ----------------------------------------------
+    # WARNING
+    # ----------------------------------------------
+
+    elif current_status == "WARNING":
+
+        if previous_status != "WARNING":
+
+            message = build_alert_message(
+                status=current_status,
+                monitoring_metrics=monitoring_metrics,
+                data_drift_metrics=data_drift_metrics,
+                prediction_drift_metrics=
+                    prediction_drift_metrics,
+                reasons=reasons,
+            )
+
+            send_telegram_alert(message)
+
+            print(
+                "\n⚠️ Telegram warning sent."
+            )
+
+    # ----------------------------------------------
+    # RECOVERY
+    # ----------------------------------------------
+
+    elif current_status == "NORMAL":
+
+        if previous_status in {
+            "WARNING",
+            "ALERT",
+        }:
+
+            send_telegram_alert(
+                build_recovery_message()
+            )
+
+            print(
+                "\n✅ Telegram recovery "
+                "notification sent."
+            )
+
+
+# ==================================================
 # Save Monitoring Metrics
 # ==================================================
 
@@ -715,12 +849,40 @@ def main():
     print("==========================================")
 
     # ==================================================
+    # 0. Define Hourly Monitoring Window
+    # ==================================================
+
+    now = datetime.now()
+    end_time = now.replace(
+        minute=0,
+        second=0,
+        microsecond=0,
+    )
+    start_time = end_time - timedelta(hours=1)
+
+    print(
+        f"\nMonitoring window:"
+        f"\n  Start: {start_time}"
+        f"\n  End:   {end_time}"
+    )
+
+    # ==================================================
     # 1. Load datasets
     # ==================================================
 
     print("\nLoading datasets...")
 
-    reference_df, production_df = load_data()
+    reference_df, production_df = load_data(
+        start_time,
+        end_time,
+    )
+
+    if production_df.empty:
+        print(
+            "\nNo successful inference requests "
+            "during this monitoring window."
+        )
+        return
 
     print(
         f"Reference dataset: "
@@ -787,7 +949,18 @@ def main():
     )
 
     # ==================================================
-    # 6. SAVE MONITORING RESULT
+    # 6. HANDLE ALERTS (TELEGRAM)
+    # ==================================================
+
+    handle_alerts(
+        monitoring_metrics,
+        data_drift_metrics,
+        prediction_drift_metrics,
+        status_metrics,
+    )
+
+    # ==================================================
+    # 7. SAVE MONITORING RESULT
     # ==================================================
 
     save_monitoring_metrics(
@@ -798,7 +971,7 @@ def main():
     )
 
     # ==================================================
-    # 7. Complete
+    # 8. Complete
     # ==================================================
 
     print("\n==========================================")
