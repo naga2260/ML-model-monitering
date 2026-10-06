@@ -1,9 +1,11 @@
-
 from pathlib import Path
+import sys
 
 import pandas as pd
 from evidently import Report
 from evidently.presets import DataDriftPreset
+
+from database_loader import load_production_data
 
 
 # ==================================================
@@ -12,6 +14,17 @@ from evidently.presets import DataDriftPreset
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+if str(BASE_DIR) not in sys.path:
+    sys.path.insert(0, str(BASE_DIR))
+
+
+# --------------------------------------------------
+# Backend Imports (Placed after sys.path setup)
+# --------------------------------------------------
+
+from backend.database import SessionLocal
+from backend.models import MonitoringMetric
+
 
 # --------------------------------------------------
 # Data paths
@@ -19,10 +32,6 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 REFERENCE_FILE = (
     BASE_DIR / "data" / "reference_data.csv"
-)
-
-PRODUCTION_FILE = (
-    BASE_DIR / "data" / "production_data.csv"
 )
 
 REFERENCE_PREDICTIONS_FILE = (
@@ -51,7 +60,11 @@ PRODUCTION_DRIFT_REPORT_FILE = (
 
 def load_data():
     """
-    Load reference and production datasets.
+    Load reference data from CSV and production
+    inference data from PostgreSQL.
+
+    PostgreSQL is the single source of production
+    data for both monitoring reports.
     """
 
     if not REFERENCE_FILE.exists():
@@ -59,18 +72,18 @@ def load_data():
             f"Reference data not found:\n{REFERENCE_FILE}"
         )
 
-    if not PRODUCTION_FILE.exists():
-        raise FileNotFoundError(
-            f"Production data not found:\n{PRODUCTION_FILE}"
-        )
-
     reference_df = pd.read_csv(
         REFERENCE_FILE
     )
 
-    production_df = pd.read_csv(
-        PRODUCTION_FILE
-    )
+    # Production data comes from PostgreSQL
+    production_df = load_production_data()
+
+    if production_df.empty:
+        raise ValueError(
+            "No production inference data found "
+            "in PostgreSQL."
+        )
 
     return reference_df, production_df
 
@@ -86,15 +99,17 @@ def prepare_data(
     """
     Prepare datasets for input feature drift.
 
-    prediction, latency_ms and timestamp are
-    monitoring/output columns and are excluded
+    prediction, latency_ms, timestamp, id and status
+    are monitoring/output columns and are excluded
     from input feature drift.
     """
 
     monitoring_columns = [
+        "id",
         "prediction",
         "latency_ms",
         "timestamp",
+        "status",
     ]
 
     # ------------------------------------------------
@@ -147,13 +162,8 @@ def generate_data_drift_report(
     production_df: pd.DataFrame
 ):
     """
-    Generate Evidently data drift report.
-
-    Compares input features between:
-    
-        reference_data
-              VS
-        production_data
+    Generate Evidently data drift report and return
+    drift metrics.
     """
 
     print("\n------------------------------------------")
@@ -190,12 +200,66 @@ def generate_data_drift_report(
         f"{DATA_DRIFT_REPORT_FILE}"
     )
 
+    # ------------------------------------------------
+    # Extract drift metrics from Evidently
+    # ------------------------------------------------
+
+    result_dict = result.dict()
+
+    metrics = result_dict.get("metrics", [])
+
+    drifted_features = 0
+    total_features = len(reference_df.columns)
+    data_drift_detected = False
+
+    for metric in metrics:
+
+        metric_id = metric.get("metric_id", "")
+
+        if "DriftedColumnsCount" in metric_id:
+
+            value = metric.get("value", {})
+
+            if isinstance(value, dict):
+
+                drifted_features = int(
+                    value.get("count", 0)
+                )
+
+                data_drift_detected = (
+                    drifted_features > 0
+                )
+
+            break
+
+    print("\nData Drift Metrics:")
+    print(
+        f"Drifted features : "
+        f"{drifted_features}"
+    )
+    print(
+        f"Total features   : "
+        f"{total_features}"
+    )
+    print(
+        f"Data drift detected: "
+        f"{data_drift_detected}"
+    )
+
+    return {
+        "data_drift_detected": data_drift_detected,
+        "drifted_features": drifted_features,
+        "total_features": total_features,
+    }
+
 
 # ==================================================
 # Generate PRODUCTION / PREDICTION DRIFT report
 # ==================================================
 
-def generate_production_drift_report():
+def generate_production_drift_report(
+    production_df: pd.DataFrame
+):
     """
     Generate Evidently prediction drift report.
 
@@ -203,13 +267,7 @@ def generate_production_drift_report():
 
         reference_predictions.csv
                     VS
-        production_data.csv -> prediction
-
-    The reference prediction file currently contains
-    the prediction column under the name 'Exam_Score'.
-
-    We rename it internally to 'prediction' so that
-    both datasets have the same column name.
+        PostgreSQL production predictions
     """
 
     print("\n------------------------------------------")
@@ -227,64 +285,67 @@ def generate_production_drift_report():
         )
 
     # ------------------------------------------------
-    # Load files
+    # Load reference predictions
     # ------------------------------------------------
 
     reference_predictions = pd.read_csv(
         REFERENCE_PREDICTIONS_FILE
     )
 
-    production_df = pd.read_csv(
-        PRODUCTION_FILE
-    )
-
     # ------------------------------------------------
-    # Check reference column
+    # Check reference prediction column
     # ------------------------------------------------
 
-    if "Exam_Score" not in reference_predictions.columns:
+    if "prediction" in reference_predictions.columns:
+
+        # Preferred format
+        reference_predictions = (
+            reference_predictions[
+                ["prediction"]
+            ]
+        )
+
+    elif "Exam_Score" in reference_predictions.columns:
+
+        # Temporary compatibility with your
+        # current reference_predictions.csv
+        reference_predictions = (
+            reference_predictions[
+                ["Exam_Score"]
+            ]
+            .rename(
+                columns={
+                    "Exam_Score": "prediction"
+                }
+            )
+        )
+
+    else:
+
         raise ValueError(
             "reference_predictions.csv must contain "
-            "an 'Exam_Score' column."
+            "either 'prediction' or 'Exam_Score'."
         )
 
     # ------------------------------------------------
-    # Check production column
+    # Check PostgreSQL production prediction column
     # ------------------------------------------------
 
     if "prediction" not in production_df.columns:
         raise ValueError(
-            "production_data.csv must contain "
+            "PostgreSQL production data must contain "
             "a 'prediction' column."
         )
 
     # ------------------------------------------------
-    # Rename reference prediction column
+    # Get production predictions from PostgreSQL
     # ------------------------------------------------
-
-    reference_predictions = (
-        reference_predictions
-        .rename(
-            columns={
-                "Exam_Score": "prediction"
-            }
-        )
-    )
-
-    # ------------------------------------------------
-    # Select prediction only
-    # ------------------------------------------------
-
-    reference_predictions = (
-        reference_predictions[
-            ["prediction"]
-        ]
-    )
 
     production_predictions = (
         production_df[
             ["prediction"]
         ]
+        .copy()
     )
 
     # ------------------------------------------------
@@ -298,7 +359,8 @@ def generate_production_drift_report():
 
     if production_predictions.empty:
         raise ValueError(
-            "Production predictions dataset is empty."
+            "Production predictions dataset from "
+            "PostgreSQL is empty."
         )
 
     # ------------------------------------------------
@@ -311,7 +373,7 @@ def generate_production_drift_report():
     )
 
     print(
-        f"Production predictions: "
+        f"Production predictions from PostgreSQL: "
         f"{production_predictions.shape}"
     )
 
@@ -373,6 +435,274 @@ def generate_production_drift_report():
         f"{PRODUCTION_DRIFT_REPORT_FILE}"
     )
 
+    # ------------------------------------------------
+    # Extract prediction drift result
+    # ------------------------------------------------
+
+    result_dict = result.dict()
+
+    metrics = result_dict.get("metrics", [])
+
+    prediction_drift_detected = False
+
+    for metric in metrics:
+
+        metric_id = metric.get("metric_id", "")
+
+        if "DriftedColumnsCount" in metric_id:
+
+            value = metric.get("value", {})
+
+            if isinstance(value, dict):
+
+                drifted_columns = int(
+                    value.get("count", 0)
+                )
+
+                prediction_drift_detected = (
+                    drifted_columns > 0
+                )
+
+            break
+
+    print("\nPrediction Drift Metrics:")
+    print(
+        f"Prediction drift detected: "
+        f"{prediction_drift_detected}"
+    )
+
+    return {
+        "prediction_drift_detected":
+            prediction_drift_detected
+    }
+
+
+# ==================================================
+# Calculate Monitoring Metrics
+# ==================================================
+
+def calculate_monitoring_metrics(production_df):
+    """
+    Calculate operational metrics from PostgreSQL production data.
+    """
+
+    if production_df.empty:
+        raise ValueError("Production dataset is empty.")
+
+    request_count = len(production_df)
+
+    avg_latency_ms = float(
+        production_df["latency_ms"].mean()
+    )
+
+    p95_latency_ms = float(
+        production_df["latency_ms"].quantile(0.95)
+    )
+
+    print("\n------------------------------------------")
+    print("Production Metrics")
+    print("------------------------------------------")
+    print(f"Request count : {request_count}")
+    print(f"Average latency: {avg_latency_ms:.2f} ms")
+    print(f"P95 latency   : {p95_latency_ms:.2f} ms")
+
+    return {
+        "request_count": request_count,
+        "avg_latency_ms": avg_latency_ms,
+        "p95_latency_ms": p95_latency_ms,
+    }
+
+
+# ==================================================
+# Evaluate Monitoring Status
+# ==================================================
+
+def evaluate_monitoring_status(
+    monitoring_metrics,
+    data_drift_metrics,
+    prediction_drift_metrics
+):
+    """
+    Evaluate monitoring metrics and determine
+    NORMAL, WARNING, or ALERT status.
+    """
+
+    warnings = []
+    alerts = []
+
+    avg_latency = monitoring_metrics[
+        "avg_latency_ms"
+    ]
+
+    p95_latency = monitoring_metrics[
+        "p95_latency_ms"
+    ]
+
+    # ------------------------------------------------
+    # Average latency
+    # ------------------------------------------------
+
+    if avg_latency > 500:
+        alerts.append(
+            f"Average latency is {avg_latency:.2f} ms"
+        )
+
+    elif avg_latency >= 200:
+        warnings.append(
+            f"Average latency is {avg_latency:.2f} ms"
+        )
+
+    # ------------------------------------------------
+    # P95 latency
+    # ------------------------------------------------
+
+    if p95_latency > 500:
+        alerts.append(
+            f"P95 latency is {p95_latency:.2f} ms"
+        )
+
+    elif p95_latency >= 300:
+        warnings.append(
+            f"P95 latency is {p95_latency:.2f} ms"
+        )
+
+    # ------------------------------------------------
+    # Data drift
+    # ------------------------------------------------
+
+    if data_drift_metrics[
+        "data_drift_detected"
+    ]:
+
+        alerts.append(
+            "Data drift detected in "
+            f"{data_drift_metrics['drifted_features']} "
+            "features"
+        )
+
+    # ------------------------------------------------
+    # Prediction drift
+    # ------------------------------------------------
+
+    if prediction_drift_metrics[
+        "prediction_drift_detected"
+    ]:
+
+        alerts.append(
+            "Prediction drift detected"
+        )
+
+    # ------------------------------------------------
+    # Determine overall status
+    # ------------------------------------------------
+
+    if alerts:
+        status = "ALERT"
+
+    elif warnings:
+        status = "WARNING"
+
+    else:
+        status = "NORMAL"
+
+    print("\n------------------------------------------")
+    print("Monitoring Status")
+    print("------------------------------------------")
+    print(f"Status: {status}")
+
+    if warnings:
+        print("\nWarnings:")
+
+        for warning in warnings:
+            print(f"  ⚠️ {warning}")
+
+    if alerts:
+        print("\nALERTS:")
+
+        for alert in alerts:
+            print(f"  🚨 {alert}")
+
+    return {
+        "status": status,
+        "warnings": warnings,
+        "alerts": alerts,
+    }
+
+
+# ==================================================
+# Save Monitoring Metrics
+# ==================================================
+
+def save_monitoring_metrics(
+    monitoring_metrics,
+    data_drift_metrics,
+    prediction_drift_metrics,
+    status_metrics
+):
+    """
+    Save one complete monitoring run to PostgreSQL.
+    """
+
+    db = SessionLocal()
+
+    try:
+
+        monitoring_record = MonitoringMetric(
+            request_count=monitoring_metrics[
+                "request_count"
+            ],
+
+            avg_latency_ms=monitoring_metrics[
+                "avg_latency_ms"
+            ],
+
+            p95_latency_ms=monitoring_metrics[
+                "p95_latency_ms"
+            ],
+
+            data_drift_detected=data_drift_metrics[
+                "data_drift_detected"
+            ],
+
+            drifted_features=data_drift_metrics[
+                "drifted_features"
+            ],
+
+            total_features=data_drift_metrics[
+                "total_features"
+            ],
+
+            prediction_drift_detected=
+                prediction_drift_metrics[
+                    "prediction_drift_detected"
+                ],
+
+            status=status_metrics[
+                "status"
+            ],
+        )
+
+        db.add(monitoring_record)
+        db.commit()
+        db.refresh(monitoring_record)
+
+        print("\n------------------------------------------")
+        print("Monitoring result saved")
+        print("------------------------------------------")
+        print(
+            f"Monitoring record ID: "
+            f"{monitoring_record.id}"
+        )
+
+    except Exception:
+
+        db.rollback()
+        raise
+
+    finally:
+
+        db.close()
+
 
 # ==================================================
 # Main monitoring pipeline
@@ -398,7 +728,7 @@ def main():
     )
 
     print(
-        f"Production dataset: "
+        f"Production dataset from PostgreSQL: "
         f"{production_df.shape}"
     )
 
@@ -419,19 +749,56 @@ def main():
         f"input features..."
     )
 
-    generate_data_drift_report(
-        reference_features,
-        production_features
+    data_drift_metrics = (
+        generate_data_drift_report(
+            reference_features,
+            production_features
+        )
     )
 
     # ==================================================
     # 3. PRODUCTION / PREDICTION DRIFT
     # ==================================================
 
-    generate_production_drift_report()
+    prediction_drift_metrics = (
+        generate_production_drift_report(
+            production_df
+        )
+    )
 
     # ==================================================
-    # 4. Complete
+    # 4. OPERATIONAL METRICS
+    # ==================================================
+
+    monitoring_metrics = (
+        calculate_monitoring_metrics(
+            production_df
+        )
+    )
+
+    # ==================================================
+    # 5. ALERT / STATUS EVALUATION
+    # ==================================================
+
+    status_metrics = evaluate_monitoring_status(
+        monitoring_metrics,
+        data_drift_metrics,
+        prediction_drift_metrics
+    )
+
+    # ==================================================
+    # 6. SAVE MONITORING RESULT
+    # ==================================================
+
+    save_monitoring_metrics(
+        monitoring_metrics,
+        data_drift_metrics,
+        prediction_drift_metrics,
+        status_metrics
+    )
+
+    # ==================================================
+    # 7. Complete
     # ==================================================
 
     print("\n==========================================")
@@ -450,6 +817,11 @@ def main():
         f"\n   {PRODUCTION_DRIFT_REPORT_FILE}"
     )
 
+    print(
+        f"\nOverall status: "
+        f"{status_metrics['status']}"
+    )
+
 
 # ==================================================
 # Entry point
@@ -457,4 +829,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

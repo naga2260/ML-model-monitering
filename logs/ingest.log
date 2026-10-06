@@ -55,3 +55,13 @@
 2026-09-08 12:00:01,866 | INFO | Updated log position: 1519272
 2026-09-08 12:00:01,866 | INFO | Incremental ingestion completed successfully.
 2026-09-08 12:00:01,866 | INFO | ============================================================
+2026-10-05 10:35:34,208 | INFO | ============================================================
+2026-10-05 10:35:34,209 | INFO | Starting incremental log ingestion
+2026-10-05 10:35:34,209 | INFO | ============================================================
+2026-10-05 10:35:34,209 | INFO | Last processed log position: 1519272
+2026-10-05 10:35:34,212 | INFO | New prediction records found: 195
+2026-10-05 10:35:34,218 | INFO | New production data shape: (195, 22)
+2026-10-05 10:35:34,223 | INFO | Appended 195 new records to /home/vardhan9296/Linear_Regression/data/production_data.csv
+2026-10-05 10:35:34,223 | INFO | Updated log position: 1659043
+2026-10-05 10:35:34,223 | INFO | Incremental ingestion completed successfully.
+2026-10-05 10:35:34,223 | INFO | ============================================================
